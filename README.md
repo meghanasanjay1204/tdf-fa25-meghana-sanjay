@@ -23,7 +23,8 @@ void loop() {
   delay(1000);                      // wait 1 second
 } ```
 3. Built-in + External Blink: Tried to connect both at the same time and it worked.
-Blink_13.mp4
+
+git add tdf-fa25-meghana-sanjay/Blink_13.mp4
 
 ## Assignment - Hello World with LED Blinking
 
