@@ -24,8 +24,6 @@ void loop() {
 } ```
 3. Built-in + External Blink: Tried to connect both at the same time and it worked.
 
-git add tdf-fa25-meghana-sanjay/Blink_13.mp4
-
 ## Assignment - Hello World with LED Blinking
 
 ``` int ledPin = 13;  // Built-in LED on pin 13
