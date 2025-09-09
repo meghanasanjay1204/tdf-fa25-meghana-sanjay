@@ -5,7 +5,7 @@ I’m maintaining this journal to document my process through the Technology Des
 ## Electronics 🔌
 In the first week, we were introduced to the syllabus and the general direction of TDF. I am in the Directed section with Prof. Sudhu Tewari and Chris Mayers, where the emphasis is on creating feasible things over simply visible or desirable ones, a refreshing shift in perspective. We received our toolkits, which was really exciting and made the course feel tangible right from the start. Although I’ve previously overseen projects that involved microcontrollers and electronics. Prof. Tewari also shared useful resources for brushing up on Arduino basics, which I’ve started exploring.
 ## Resources
-https://github.com/loopstick/ArduinoTutorial?tab=readme-ov-file#exercise-2
+https://github.com/loopstick/ArduinoTutorial?tab=readme-ov-file#exercise-2\
 https://learn.adafruit.com/ladyadas-learn-arduino-lesson-number-0?view=all
 ## Experiments
 1. Built-in Blink: I ran the classic blink sketch that makes the onboard LED at pin 13 turn on and off every second.
