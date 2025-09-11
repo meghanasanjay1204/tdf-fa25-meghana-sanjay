@@ -92,7 +92,7 @@ In the last version:
 - Gave the blades a slight curved edge for smoother motion.  
 - Sanded the whole piece for a clean finish.
 <p><img src="WhatsApp Image 2025-09-11 at 12.51.33.jpeg"></p>
-<video src="WhatsApp Video 2025-09-11 at 12.51.33.mp4" controls width="600"></video>
+<p><video src="WhatsApp Video 2025-09-11 at 12.51.33.mp4" controls width="600"></video></p>
 
 And *yayy!* my cute little fidget toy was ready to fly.  
 It fits perfectly on the hand, turns smoothly, and feels like a playful blend of wings and helicopter blades. Here are the 3 genz together!
