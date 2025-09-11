@@ -5,10 +5,10 @@ I’m maintaining this journal to document my process through the Technology Des
 # Week 1  | 02.09.2025 - 09.09.2025 
 ## Electronics 🔌
 In the first week, we were introduced to the syllabus and the general direction of TDF. I am in the Directed section with Prof. Sudhu Tewari and Chris Mayers, where the emphasis is on creating feasible things over simply visible or desirable ones, a refreshing shift in perspective. We received our toolkits, which was really exciting and made the course feel tangible right from the start. Although I’ve previously overseen projects that involved microcontrollers and electronics. Prof. Tewari also shared useful resources for brushing up on Arduino basics, which I’ve started exploring.
-## Resources
+### Resources
 [https://github.com/loopstick/ArduinoTutorial?tab=readme-ov-file#exercise-2]\
 [https://learn.adafruit.com/ladyadas-learn-arduino-lesson-number-0?view=all]
-## Experiments
+### Experiments
 1. Built-in Blink: I ran the classic blink sketch that makes the onboard LED at pin 13 turn on and off every second.
 2. External LED Blink: I connected an LED to pin 8 with a resistor and made it blink at one-second intervals, similar to the built-in LED.
 ``` int externalLED = 8;   // external LED connected to pin 8
@@ -27,7 +27,7 @@ void loop() {
 3. Built-in + External Blink: Tried to connect both at the same time and it worked.
 
 
-## Assignment - Hello World with LED Blinking
+### Assignment - Hello World with LED Blinking
 
 ``` int ledPin = 13;  // Built-in LED on pin 13
 
@@ -48,16 +48,51 @@ void loop() {
   delay(1000);                 // Wait 1 second
 }
 ```
-## Media
-### Images
+### Media
+#### Images
 <p><img src="with bulb.jpeg"></p>
 
-### Videos
+#### Videos
 
 https://github.com/meghanasanjay1204/tdf-fa25-meghana-sanjay/blob/main/task%201.mp4 \
 https://github.com/meghanasanjay1204/tdf-fa25-meghana-sanjay/blob/main/blink%20bulb.mp4 \
 https://github.com/meghanasanjay1204/tdf-fa25-meghana-sanjay/blob/main/blink%202%20bulbs_ext%208.mp4 \
 https://github.com/meghanasanjay1204/tdf-fa25-meghana-sanjay/blob/main/Blink_13.mp4 \
+
+## Digital Fabrication 🛠️
+In the first week of digital fabrication, we were introduced to the **laser cutter**. Chris Mayers gave us a training session on how to properly operate the equipment. We covered not only what to do but, most importantly, what *not* to do when handling the machine. Safety and precision were key themes, which helped set the tone for how powerful and delicate this tool can be.  
+
+### Assignment - Personality Ring
+For our first assignment, we were asked to experiment with **Adobe Illustrator** and design a ring that reflects our personality. When I first came here, I was told to “go fly.” That thought stayed with me, and I wanted to create wings. But then I imagined something more playful, the blades of a helicopter! That idea shaped my experiment, and I began designing a small hand-held spinning toy.
+
+#### Iteration 1
+I quickly sketched a drawing of a large fan-like structure with three blades and a central hole.  
+The design included a ring with a pointed extrusion on top to pass through the blades, and a stopper to hold it in place.  
+After making the first prototype, I realized:
+- The blades were too long — uncomfortable to wear on the hand.  
+- The blades were too thin — prone to breakage.  
+- The ring fit was loose.  
+- A single ring wasn’t strong enough to support the structure.  
+- The projection on the ring was too short to hold the cap securely.  
+
+*(I also struggled with the software a little, but with help from buddies and Chris, I managed to get it done.)*
+
+#### Iteration 2
+To improve the design:
+- Decreased the diameter of the ring for a tighter fit.  
+- Added a second ring to stack together for stability.  
+- Increased the height of the projection on the ring so the stopper could hold properly.  
+- Reduced the length of the blades to make it more wearable.  
+
+#### Iteration 3 (Final!)
+In the last version:
+- Decreased the blade length even further.  
+- Gave the blades a slight curved edge for smoother motion.  
+- Sanded the whole piece for a clean finish.  
+
+And *yayy!* my cute little fidget toy was ready to fly.  
+It fits perfectly on the hand, turns smoothly, and feels like a playful blend of wings and helicopter blades.
+
 
 
 
