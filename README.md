@@ -76,22 +76,27 @@ After making the first prototype, I realized:
 - The projection on the ring was too short to hold the cap securely.  
 
 *(I also struggled with the software a little, but with help from buddies and Chris, I managed to get it done.)*
+<p><img src="WhatsApp Image 2025-09-11 at 12.51.49.jpeg"></p>
 
 #### Iteration 2
 To improve the design:
 - Decreased the diameter of the ring for a tighter fit.  
 - Added a second ring to stack together for stability.  
 - Increased the height of the projection on the ring so the stopper could hold properly.  
-- Reduced the length of the blades to make it more wearable.  
+- Reduced the length of the blades to make it more wearable.
+<p><img src="WhatsApp Image 2025-09-11 at 12.51.43.jpeg"></p>
 
 #### Iteration 3 (Final!)
 In the last version:
 - Decreased the blade length even further.  
 - Gave the blades a slight curved edge for smoother motion.  
-- Sanded the whole piece for a clean finish.  
+- Sanded the whole piece for a clean finish.
+<p><img src="WhatsApp Image 2025-09-11 at 12.51.33.jpeg"></p>
 
 And *yayy!* my cute little fidget toy was ready to fly.  
-It fits perfectly on the hand, turns smoothly, and feels like a playful blend of wings and helicopter blades.
+It fits perfectly on the hand, turns smoothly, and feels like a playful blend of wings and helicopter blades. Here are the 3 genz together!
+
+<p><img src="WhatsApp Image 2025-09-11 at 12.51.32.jpeg"></p>
 
 
 
