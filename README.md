@@ -74,8 +74,9 @@ After making the first prototype, I realized:
 - The ring fit was loose.  
 - A single ring wasn’t strong enough to support the structure.  
 - The projection on the ring was too short to hold the cap securely.  
-
 *(I also struggled with the software a little, but with help from buddies and Chris, I managed to get it done.)*
+
+https://github.com/user-attachments/assets/ad9cbafc-0c7b-40bf-b54a-b06f98a691e8
 <p><img src="WhatsApp Image 2025-09-11 at 12.51.49.jpeg"></p>
 
 #### Iteration 2
@@ -84,6 +85,8 @@ To improve the design:
 - Added a second ring to stack together for stability.  
 - Increased the height of the projection on the ring so the stopper could hold properly.  
 - Reduced the length of the blades to make it more wearable.
+- 
+https://github.com/user-attachments/assets/badf731b-d3d2-4213-93a7-4ad2b3cbcd02
 <p><img src="WhatsApp Image 2025-09-11 at 12.51.43.jpeg"></p>
 
 #### Iteration 3 (Final!)
@@ -92,9 +95,13 @@ In the last version:
 - Gave the blades a slight curved edge for smoother motion.  
 - Sanded the whole piece for a clean finish.
 <p><img src="WhatsApp Image 2025-09-11 at 12.51.33.jpeg"></p>
-<p><video src="WhatsApp Video 2025-09-11 at 12.51.33.mp4" controls width="600"></video></p>
 
-And *yayy!* my cute little fidget toy was ready to fly.  
+https://github.com/user-attachments/assets/24edfe98-5d22-4944-9e8e-d217384ff71d
+
+And *yayy!* my cute little fidget toy was ready to fly.
+
+https://github.com/user-attachments/assets/ad9a2e65-1eec-4ec5-87cb-d4c90dae7514
+
 It fits perfectly on the hand, turns smoothly, and feels like a playful blend of wings and helicopter blades. Here are the 3 genz together!
 <p><img src="WhatsApp Image 2025-09-11 at 12.51.32.jpeg"></p>
 
@@ -102,57 +109,56 @@ It fits perfectly on the hand, turns smoothly, and feels like a playful blend of
 ## Electronics 🔌
 In Week 2, we followed tutorials in class and were introduced to using an LDR (Light Dependent Resistor) sensor along with an RGB LED (3-in-1). It was exciting to see how the RGB LED could mix colors based on sensor input, opening up creative ways to play with light and interactivity. Later, I experimented on my own with a few variations, trying out different sensor responses and LED patterns, which gave me a better grasp of how analog inputs can control multi-channel outputs.
 
-<p><video src="PXL_20250910_020313575.mp4" controls width="600"></video></p> 
-
 ### Classwork
 1. RGB LED (3-in-1)
+
+https://github.com/user-attachments/assets/e6ed1c32-4381-49e1-b8bb-3d1a6d130027
+
 2. Blinking LEDs in intervals / patterns
+
+
+https://github.com/user-attachments/assets/7ff346b7-fb1f-41c0-9aed-614b1199ccff
+
+https://github.com/user-attachments/assets/e8a3721f-9686-4974-af95-b619fdc6b610
+
+
 
 ### Experiments
 
-1. Learned how to capture values from the LDR sensor and view them through the Serial Monitor.
-: analogRead()
+1. Learned how to capture values from the LDR sensor and view them through the Serial Monitor: analogRead()
 
-<p><img src="ldr_sensor.jpeg"></p>
-<p><video src="ldr_sensor_demo.mp4" controls width="600"></video></p>
+https://github.com/user-attachments/assets/d3c8dc08-d85d-4d12-b392-993664350c39
 
 2. Experimented with PWM to dim and brighten an LED smoothly: analogWrite()
 
-<p><img src="analogwrite.jpeg"></p>
-<p><video src="analogwrite_demo.mp4" controls width="600"></video></p>
+
+https://github.com/user-attachments/assets/9f72e960-a1b6-43d2-99b2-f767a83418ff
+
+https://github.com/user-attachments/assets/79ec3b90-d784-4a1b-95d2-589550d2df2a
+
 
 3. Connected the LDR sensor with an LED so that the light intensity controlled the LED state.
-<p><img src="ldr_led.jpeg"></p>
-<p><video src="ldr_led_demo.mp4" controls width="600"></video></p>
+
+
+https://github.com/user-attachments/assets/e4e4e5bf-0841-440a-85ad-22b36de0d72c
+
 
 4. Added a button for manual control and experimented with simple on/off states.
-<p><img src="button.jpeg"></p>
-<p><video src="button_demo.mp4" controls width="600"></video></p>
+
+
+https://github.com/user-attachments/assets/4f97f130-ed0d-490d-92b0-0558d0a0635e
+
 
 5. Used a potentiometer to vary LED brightness and understand analog input scaling.
-<p><img src="potentiometer.jpeg"></p>
-<p><video src="pot_demo.mp4" controls width="600"></video></p>
 
-``` int led = 9; 
-int sensorValue = 0;
-void setup()
-{
-  Serial.begin(9600);
-  pinMode(led, OUTPUT);  
-}
-void loop()
-{
-  sensorValue = analogRead(A0);
-  Serial.println(sensorValue);
 
-int ledValue = map(sensorValue, 0, 1023, 0, 255); 
-analogWrite(led, ledValue);
+https://github.com/user-attachments/assets/2c30ec93-b305-4a25-86b1-91ffb42f3fb8
 
-delay(200);        
-}
-```
 
-experimented by chngaging few valeus and adidng 2nd lighy
+
+
+
+
 
 
 
