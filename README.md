@@ -108,8 +108,30 @@ In Week 2, we followed tutorials in class and were introduced to using an LDR (L
 1. RGB LED (3-in-1)
 2. Blinking LEDs in intervals / patterns
 
+### Experiments
 
-add the one light fade in out image/vidz
+1. Learned how to capture values from the LDR sensor and view them through the Serial Monitor.
+: analogRead()
+
+<p><img src="ldr_sensor.jpeg"></p>
+<p><video src="ldr_sensor_demo.mp4" controls width="600"></video></p>
+
+2. Experimented with PWM to dim and brighten an LED smoothly: analogWrite()
+
+<p><img src="analogwrite.jpeg"></p>
+<p><video src="analogwrite_demo.mp4" controls width="600"></video></p>
+
+3. Connected the LDR sensor with an LED so that the light intensity controlled the LED state.
+<p><img src="ldr_led.jpeg"></p>
+<p><video src="ldr_led_demo.mp4" controls width="600"></video></p>
+
+4. Added a button for manual control and experimented with simple on/off states.
+<p><img src="button.jpeg"></p>
+<p><video src="button_demo.mp4" controls width="600"></video></p>
+
+5. Used a potentiometer to vary LED brightness and understand analog input scaling.
+<p><img src="potentiometer.jpeg"></p>
+<p><video src="pot_demo.mp4" controls width="600"></video></p>
 
 ``` int led = 9; 
 int sensorValue = 0;
