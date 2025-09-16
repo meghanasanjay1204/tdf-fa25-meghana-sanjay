@@ -54,10 +54,13 @@ void loop() {
 
 #### Videos
 
-<p><video src="task 1.mp4" controls width="600"></video></p>
-<p><video src="blink bulb.mp4" controls width="600"></video></p>
-<p><video src="blink 2 bulbs_ext 8.mp4" controls width="600"></video></p>
-<p><video src="Blink_13.mp4" controls width="600"></video></p>
+![task 1](https://github.com/meghanasanjay1204/tdf-fa25-meghana-sanjay/raw/main/task%201.mp4)
+
+![blink bulb](https://github.com/meghanasanjay1204/tdf-fa25-meghana-sanjay/raw/main/blink%20bulb.mp4)
+
+![blink 2 bulbs ext 8](https://github.com/meghanasanjay1204/tdf-fa25-meghana-sanjay/raw/main/blink%202%20bulbs_ext%208.mp4)
+
+![Blink 13](https://github.com/meghanasanjay1204/tdf-fa25-meghana-sanjay/raw/main/Blink_13.mp4)
 
 ## Digital Fabrication 🛠️
 In the first week of digital fabrication, we were introduced to the **laser cutter**. Chris Mayers gave us a training session on how to properly operate the equipment. We covered not only what to do but, most importantly, what *not* to do when handling the machine. Safety and precision were key themes, which helped set the tone for how powerful and delicate this tool can be.  
@@ -92,7 +95,7 @@ In the last version:
 - Gave the blades a slight curved edge for smoother motion.  
 - Sanded the whole piece for a clean finish.
 <p><img src="WhatsApp Image 2025-09-11 at 12.51.33.jpeg"></p>
-<p><video src="WhatsApp Video 2025-09-11 at 12.51.33.mp4" controls width="600"></video></p>
+![WhatsApp Video 2025-09-11 at 12.51.33](https://github.com/meghanasanjay1204/tdf-fa25-meghana-sanjay/raw/main/WhatsApp%20Video%202025-09-11%20at%2012.51.33.mp4)
 
 And *yayy!* my cute little fidget toy was ready to fly.  
 It fits perfectly on the hand, turns smoothly, and feels like a playful blend of wings and helicopter blades. Here are the 3 genz together!
@@ -102,7 +105,7 @@ It fits perfectly on the hand, turns smoothly, and feels like a playful blend of
 ## Electronics 🔌
 In Week 2, we followed tutorials in class and were introduced to using an LDR (Light Dependent Resistor) sensor along with an RGB LED (3-in-1). It was exciting to see how the RGB LED could mix colors based on sensor input, opening up creative ways to play with light and interactivity. Later, I experimented on my own with a few variations, trying out different sensor responses and LED patterns, which gave me a better grasp of how analog inputs can control multi-channel outputs.
 
-<p><video src="PXL_20250910_020313575.mp4" controls width="600"></video></p> 
+![PXL_20250910_020313575](https://github.com/meghanasanjay1204/tdf-fa25-meghana-sanjay/raw/main/PXL_20250910_020313575.mp4) 
 
 ### Classwork
 1. RGB LED (3-in-1)
