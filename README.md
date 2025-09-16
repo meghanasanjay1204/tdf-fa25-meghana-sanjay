@@ -54,10 +54,10 @@ void loop() {
 
 #### Videos
 
-https://github.com/meghanasanjay1204/tdf-fa25-meghana-sanjay/blob/main/task%201.mp4 \
-https://github.com/meghanasanjay1204/tdf-fa25-meghana-sanjay/blob/main/blink%20bulb.mp4 \
-https://github.com/meghanasanjay1204/tdf-fa25-meghana-sanjay/blob/main/blink%202%20bulbs_ext%208.mp4 \
-https://github.com/meghanasanjay1204/tdf-fa25-meghana-sanjay/blob/main/Blink_13.mp4 \
+<p><video src="task 1.mp4" controls width="600"></video></p>
+<p><video src="blink bulb.mp4" controls width="600"></video></p>
+<p><video src="blink 2 bulbs_ext 8.mp4" controls width="600"></video></p>
+<p><video src="Blink_13.mp4" controls width="600"></video></p>
 
 ## Digital Fabrication 🛠️
 In the first week of digital fabrication, we were introduced to the **laser cutter**. Chris Mayers gave us a training session on how to properly operate the equipment. We covered not only what to do but, most importantly, what *not* to do when handling the machine. Safety and precision were key themes, which helped set the tone for how powerful and delicate this tool can be.  
