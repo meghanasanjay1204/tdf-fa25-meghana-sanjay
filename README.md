@@ -96,8 +96,43 @@ In the last version:
 
 And *yayy!* my cute little fidget toy was ready to fly.  
 It fits perfectly on the hand, turns smoothly, and feels like a playful blend of wings and helicopter blades. Here are the 3 genz together!
-
 <p><img src="WhatsApp Image 2025-09-11 at 12.51.32.jpeg"></p>
+
+# Week 2  | 10.09.2025 - 15.09.2025 
+## Electronics 🔌
+In Week 2, we followed tutorials in class and were introduced to using an LDR (Light Dependent Resistor) sensor along with an RGB LED (3-in-1). It was exciting to see how the RGB LED could mix colors based on sensor input, opening up creative ways to play with light and interactivity. Later, I experimented on my own with a few variations, trying out different sensor responses and LED patterns, which gave me a better grasp of how analog inputs can control multi-channel outputs.
+
+<p><video src="PXL_20250910_020313575.mp4" controls width="600"></video></p> 
+
+### Classwork
+1. RGB LED (3-in-1)
+2. Blinking LEDs in intervals / patterns
+
+
+add the one light fade in out image/vidz
+
+``` int led = 9; 
+int sensorValue = 0;
+void setup()
+{
+  Serial.begin(9600);
+  pinMode(led, OUTPUT);  
+}
+void loop()
+{
+  sensorValue = analogRead(A0);
+  Serial.println(sensorValue);
+
+int ledValue = map(sensorValue, 0, 1023, 0, 255); 
+analogWrite(led, ledValue);
+
+delay(200);        
+}
+```
+
+experimented by chngaging few valeus and adidng 2nd lighy
+
+
 
 
 
