@@ -155,6 +155,34 @@ https://github.com/user-attachments/assets/4f97f130-ed0d-490d-92b0-0558d0a0635e
 https://github.com/user-attachments/assets/2c30ec93-b305-4a25-86b1-91ffb42f3fb8
 
 
+# Week 3  | 16.09.2025 - 23.09.2025 
+ learned to make the servo work
+```
+#include <Servo.h>
+
+Servo myservo;
+
+void setup() {
+  myservo.attach(9);  // servo signal on pin 9
+}
+
+void loop() {
+  // sweep from 0 to 180
+  for (int pos = 0; pos <= 180; pos++) {
+    myservo.write(pos);
+    delay(15);   // adjust for speed
+  }
+
+  // sweep back from 180 to 0
+  for (int pos = 180; pos >= 0; pos--) {
+    myservo.write(pos);
+    delay(15);
+  }
+}
+```
+
+
+
 
 
 
