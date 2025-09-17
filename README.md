@@ -156,7 +156,8 @@ https://github.com/user-attachments/assets/2c30ec93-b305-4a25-86b1-91ffb42f3fb8
 
 
 # Week 3  | 16.09.2025 - 23.09.2025 
- learned to make the servo work
+
+ learned to make the servo work on its own
 ```
 #include <Servo.h>
 
@@ -180,6 +181,13 @@ void loop() {
   }
 }
 ```
+
+https://github.com/user-attachments/assets/ac7a2274-ae0c-405d-85aa-ca5c4ed82329
+
+ learned to make the servo work with potentoiometer
+ 
+https://github.com/user-attachments/assets/efdd251c-7e68-4dd2-b1f7-be9ed6a7600a
+
 
 
 
