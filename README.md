@@ -175,7 +175,9 @@ https://github.com/user-attachments/assets/b9a7dd8b-e348-4536-99c1-46e18e205e96
 https://github.com/user-attachments/assets/3bd30e7d-6c98-40b8-adfb-f4b97a256522
 
 
-# Week 3  | 16.09.2025 - 23.09.2025 
+# Week 3  
+
+## Electronics 🔌| 16.09.2025 - 23.09.2025 
 
  learned to make the servo work on its own
 ```
