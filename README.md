@@ -2,8 +2,8 @@
 Hey, I'm Meghana (Megzu) 🌻
 I’m maintaining this journal to document my process through the Technology Design Foundation class, which is a mix of electronics and digital fabrication. Very excited to learn, experiment, and do fun stuff along the way!
 
-# Week 1  | 02.09.2025 - 09.09.2025 
-## Electronics 🔌
+# Week 1   
+## Electronics 🔌| 02.09.2025 - 09.09.2025
 In the first week, we were introduced to the syllabus and the general direction of TDF. I am in the Directed section with Prof. Sudhu Tewari and Chris Mayers, where the emphasis is on creating feasible things over simply visible or desirable ones, a refreshing shift in perspective. We received our toolkits, which was really exciting and made the course feel tangible right from the start. Although I’ve previously overseen projects that involved microcontrollers and electronics. Prof. Tewari also shared useful resources for brushing up on Arduino basics, which I’ve started exploring.
 ### Resources
 [https://github.com/loopstick/ArduinoTutorial?tab=readme-ov-file#exercise-2]\
@@ -59,7 +59,7 @@ https://github.com/meghanasanjay1204/tdf-fa25-meghana-sanjay/blob/main/blink%20b
 https://github.com/meghanasanjay1204/tdf-fa25-meghana-sanjay/blob/main/blink%202%20bulbs_ext%208.mp4 \
 https://github.com/meghanasanjay1204/tdf-fa25-meghana-sanjay/blob/main/Blink_13.mp4 \
 
-## Digital Fabrication 🛠️
+## Digital Fabrication 🛠️ | 04.09.2025 - 11.09.2025
 In the first week of digital fabrication, we were introduced to the **laser cutter**. Chris Mayers gave us a training session on how to properly operate the equipment. We covered not only what to do but, most importantly, what *not* to do when handling the machine. Safety and precision were key themes, which helped set the tone for how powerful and delicate this tool can be.  
 
 ### Assignment - Personality Ring
@@ -105,8 +105,8 @@ https://github.com/user-attachments/assets/ad9a2e65-1eec-4ec5-87cb-d4c90dae7514
 It fits perfectly on the hand, turns smoothly, and feels like a playful blend of wings and helicopter blades. Here are the 3 genz together!
 <p><img src="WhatsApp Image 2025-09-11 at 12.51.32.jpeg"></p>
 
-# Week 2  | 10.09.2025 - 15.09.2025 
-## Electronics 🔌
+# Week 2  
+## Electronics 🔌 | 09.09.2025 - 16.09.2025 
 In Week 2, we followed tutorials in class and were introduced to using an LDR (Light Dependent Resistor) sensor along with an RGB LED (3-in-1). It was exciting to see how the RGB LED could mix colors based on sensor input, opening up creative ways to play with light and interactivity. Later, I experimented on my own with a few variations, trying out different sensor responses and LED patterns, which gave me a better grasp of how analog inputs can control multi-channel outputs.
 
 ### Classwork
@@ -153,6 +153,26 @@ https://github.com/user-attachments/assets/4f97f130-ed0d-490d-92b0-0558d0a0635e
 
 
 https://github.com/user-attachments/assets/2c30ec93-b305-4a25-86b1-91ffb42f3fb8
+
+## Digital Fabrication 🛠️ | 11.09.2025 - 18.09.2025
+
+In the second week, we moved from 2D to 3D by learning Fusion 360. This was my very first time using the software, so it took some time to get comfortable, but it opened up new ways to think about form and structure.
+
+### Assignment
+
+We had two assignments this week.
+
+1. Recreate the personality ring in 3D — I modified my helicopter blades slightly, and once printed, the ring spun so smoothly.
+![WhatsApp Image 2025-09-18 at 10 13 27 (1)](https://github.com/user-attachments/assets/9fb2a80c-a07e-409f-963e-1a70f7263454)
+![WhatsApp Image 2025-09-18 at 10 13 21](https://github.com/user-attachments/assets/8d1b58e7-2147-4fca-88c1-3c98afa033d1)
+
+https://github.com/user-attachments/assets/b9a7dd8b-e348-4536-99c1-46e18e205e96
+
+2. Create a new design — I started working on an ambigram structure that reads “meg” from one side and “fly” from the other. I’ve created a base for it and am yet to mount and test how it works.
+
+![WhatsApp Image 2025-09-18 at 10 13 27](https://github.com/user-attachments/assets/86ebcfb5-c5ad-40bb-96f5-5d1c7fba54d2)
+
+https://github.com/user-attachments/assets/3bd30e7d-6c98-40b8-adfb-f4b97a256522
 
 
 # Week 3  | 16.09.2025 - 23.09.2025 
