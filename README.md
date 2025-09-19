@@ -174,6 +174,10 @@ https://github.com/user-attachments/assets/b9a7dd8b-e348-4536-99c1-46e18e205e96
 
 https://github.com/user-attachments/assets/3bd30e7d-6c98-40b8-adfb-f4b97a256522
 
+![WhatsApp Image 2025-09-18 at 22 59 04](https://github.com/user-attachments/assets/4eed6b14-d018-4d4d-8da4-83aa697f0468)
+![WhatsApp Image 2025-09-18 at 22 59 05](https://github.com/user-attachments/assets/e0e1af93-c555-4a8e-848f-0fca3576440d)
+![WhatsApp Image 2025-09-18 at 22 59 05 (1)](https://github.com/user-attachments/assets/d2f0f922-eba6-41fb-a4bf-b095c13248ac)
+
 
 # Week 3  
 
