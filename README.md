@@ -233,19 +233,50 @@ https://github.com/user-attachments/assets/e4fe48b1-13bd-4408-82ba-4066547ed957
 
 
 I first folded paper models to understand the geometry and then started thinking about how to animate the form. My initial idea was to create a two-way 180° twisting motion, but after sketches and discussions with Cody and Chris, I realized it would be mechanically complex. I then shifted the idea to a horizontal sliding motion along the X-axis.
+
 ![ideation sketch 1](https://github.com/user-attachments/assets/18c8f3a3-9d5b-422a-990b-8274cc566e14)
 ![ideation sketch 2](https://github.com/user-attachments/assets/e0a60355-57d0-4465-b305-7332c6263323)
+Below are the 2 other motions that I tried out before arriving at the final one.
+https://github.com/user-attachments/assets/e1e9191b-a7a5-4f68-8bfe-6734769323d4
+https://github.com/user-attachments/assets/320bb984-ce6a-4a3b-a6b4-20198a427858
 
 ### Iterations
 
-Rack & Pinion Setup – With Lauryn’s suggestion, I tried using a rack and pinion to move the origami. I 3D-printed a set and attempted to mesh it with the motor. Nikhil helped me out with this!
-
-
+Rack & Pinion Setup – With Lauryn’s suggestion, I tried using a rack and pinion to move the piece. I 3D-printed a set and attempted to mesh it with the motor. Nikhil helped me out with this!
+![PXL_20250924_055455343](https://github.com/user-attachments/assets/20d5e026-7ce8-4617-ab93-bf22f255e47b)
+![PXL_20250924_033406082](https://github.com/user-attachments/assets/7058a90e-1e2a-4a1f-8f46-3ec948bca196)
+https://github.com/user-attachments/assets/c8b03078-6c7e-4f21-907e-a0d6de007831
+Materials - For prototyping, I used simple materials like pens, paper clips, and scrap laser-cut circles to quickly test connections and motions before moving to sturdier setups.
+Once the idea felt promising, I mounted the system inside a cardboard box, cutting a diagonal slit to hold the form. Two bamboo skewers were attached to adjacent sides of the shape—one fixed inside the box and the other connected to the rack—so that only one side would move.
+https://github.com/user-attachments/assets/75c09a88-2f78-4cb1-bc2b-aba8e85fff56
 Guiding Tracks – The rack kept slipping, so I added two wooden sticks as rails to keep the motion straight.
-
-Cardboard Box Housing – I mounted the system inside a cardboard box, cutting a diagonal slit to hold the form. I attached two bamboo skewers to adjacent sides of the origami — one fixed inside the box and the other connected to the rack, so only one side would move.
-
+![PXL_20250925_162652009](https://github.com/user-attachments/assets/a93ea983-1925-4414-925e-7cd35829956d)
 Final Working Model – With some duct tape fixes and funny little add-ons, I managed to get the piece moving smoothly.
+https://github.com/user-attachments/assets/4cd7ae23-b1fd-4910-b1b2-853d89f97b4a
+Bloopers from the late night studios!
+![PXL_20250924_205159963](https://github.com/user-attachments/assets/e695739c-e3f1-42a5-b8c0-5d1f117a1ed8)
+
+### Challenges & Learnings
+
+- The first challenge was purely mechanical—getting the motion smooth and consistent.
+- Simple adjustments (like slits, tape, or skewers) can make the difference between a stuck system and one that moves smoothly.
+- The next challenge came from the coding side. The sweep code and LDR sensor code didn’t seem to work together, and the serial monitor kept showing a value of 0.
+- Eventually, I used ChatGPT to generate an alternative code, which worked! That moment of seeing the mechanism finally move felt amazing.
+- Coding is never one-and-done; debugging is part of the process, and exploring alternative solutions often opens up new directions.
+
+### Reflections
+Presenting the working prototype in class, especially with the golden hour shots, was rewarding—it felt like my first proper breakthrough in this project.
+
+https://github.com/user-attachments/assets/5ac4b307-0ca4-4e50-b4bf-8da490913de1
+![PXL_20250926_001851614 MP](https://github.com/user-attachments/assets/e0063d49-27d9-4931-8485-f530a291aeb6)
+https://github.com/user-attachments/assets/ac54ac85-e233-4e25-b6e1-35feb3123039
+
+While this prototype gave me the satisfaction of solving mechanical and coding issues, I still feel drawn to my initial idea of creating a full motion. I want to revisit that direction in future iterations, exploring a more natural and expressive movement. This week showed me the joy of “making it work,” but I also want to push myself!
+
+
+
+
+
 
 
 
