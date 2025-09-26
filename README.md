@@ -181,9 +181,10 @@ https://github.com/user-attachments/assets/3bd30e7d-6c98-40b8-adfb-f4b97a256522
 
 # Week 3  
 
-## Electronics 🔌| 16.09.2025 - 23.09.2025 
+## Electronics 🔌+ Digital Fabrication 🛠️ | 16.09.2025 - 18.09.2025 
 
- learned to make the servo work on its own
+In class this week, we learned how to use a servo motor. First, I made it move back and forth on its own with a simple program. Then, we connected a knob (potentiometer) so that turning it could change the angle of the servo. It was fun to see how something I controlled by hand could directly move the motor showing how inputs and outputs can work together.
+
 ```
 #include <Servo.h>
 
@@ -209,12 +210,17 @@ void loop() {
 ```
 
 https://github.com/user-attachments/assets/ac7a2274-ae0c-405d-85aa-ca5c4ed82329
-
- learned to make the servo work with potentoiometer
  
 https://github.com/user-attachments/assets/efdd251c-7e68-4dd2-b1f7-be9ed6a7600a
 
+We were also introduced to our project brief on emotive origami. In class, we practiced a few simple folds with paper and cardboard, and were shown some example videos of what’s possible. For my first test, I tried folding a flying bird to check the quality of the paper I chose and to see how much motion I could create. This was my starting point for exploring how movement and form can work together.
 
+![PXL_20250920_163121741 MP](https://github.com/user-attachments/assets/3aa87399-844c-40cb-bdc0-814be96d79e7)
+https://github.com/user-attachments/assets/02bce0e5-5dd9-4138-839d-b806a62c3ca9
+
+# Week 4  
+
+## Electronics 🔌 + Digital Fabrication 🛠️| 18.09.2025 - 26.09.2025 
 
 
 
