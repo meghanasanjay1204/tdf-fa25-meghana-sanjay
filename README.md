@@ -246,6 +246,7 @@ I first folded paper models to understand the geometry and then started thinking
 
 ![ideation sketch 1](https://github.com/user-attachments/assets/18c8f3a3-9d5b-422a-990b-8274cc566e14)
 ![ideation sketch 2](https://github.com/user-attachments/assets/e0a60355-57d0-4465-b305-7332c6263323)
+
 Below are the 2 other motions that I tried out before arriving at the final one.
 
 https://github.com/user-attachments/assets/e1e9191b-a7a5-4f68-8bfe-6734769323d4
@@ -279,7 +280,7 @@ Bloopers from the late night studios!
 - The first challenge was purely mechanical—getting the motion smooth and consistent.
 - Simple adjustments (like slits, tape, or skewers) can make the difference between a stuck system and one that moves smoothly.
 - The next challenge came from the coding side. The sweep code and LDR sensor code didn’t seem to work together, and the serial monitor kept showing a value of 0.
-- Eventually, I used ChatGPT to generate an alternative code, which worked! That moment of seeing the mechanism finally move felt amazing.
+- Eventually, I used ChatGPT to generate an alternative code, which worked. Roopa helped me out with this! That moment of seeing the mechanism finally move felt amazing.
 - Coding is never one-and-done; debugging is part of the process, and exploring alternative solutions often opens up new directions.
 
 ### Reflections
