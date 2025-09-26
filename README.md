@@ -216,15 +216,36 @@ https://github.com/user-attachments/assets/efdd251c-7e68-4dd2-b1f7-be9ed6a7600a
 We were also introduced to our project brief on emotive origami. In class, we practiced a few simple folds with paper and cardboard, and were shown some example videos of what’s possible. For my first test, I tried folding a flying bird to check the quality of the paper I chose and to see how much motion I could create. This was my starting point for exploring how movement and form can work together.
 
 ![PXL_20250920_163121741 MP](https://github.com/user-attachments/assets/3aa87399-844c-40cb-bdc0-814be96d79e7)
+
 https://github.com/user-attachments/assets/02bce0e5-5dd9-4138-839d-b806a62c3ca9
 
 # Week 4  
 
-## Electronics 🔌 + Digital Fabrication 🛠️| 18.09.2025 - 26.09.2025 
+## Electronics 🔌 + Digital Fabrication 🛠️| 18.09.2025 - 25.09.2025 
+
+### Process
+
+For the project, I began by exploring a few origami folds, using reference books and YouTube tutorials for guidance. I eventually chose the hyperbolic paraboloid, which has both a personal and technical significance for me. It connects back to the Param science center, a building I worked on earlier and still hold close to my heart. Mathematically, it’s a fascinating form where strength comes from geometry rather than mass, making it a sustainable and efficient structure.
+![PXL_20250920_190441859 MP](https://github.com/user-attachments/assets/309a77d6-fd72-4b58-89e0-32d715a56ede)
+![PXL_20250922_234249056 MP](https://github.com/user-attachments/assets/d070a2c5-518d-4afc-b5c2-fd6bc587941e)
+![PXL_20250923_033931478 MP](https://github.com/user-attachments/assets/b8222e99-bd7f-4ab3-b871-d7750728d86f)
+https://github.com/user-attachments/assets/e4fe48b1-13bd-4408-82ba-4066547ed957
 
 
+I first folded paper models to understand the geometry and then started thinking about how to animate the form. My initial idea was to create a two-way 180° twisting motion, but after sketches and discussions with Cody and Chris, I realized it would be mechanically complex. I then shifted the idea to a horizontal sliding motion along the X-axis.
+![ideation sketch 1](https://github.com/user-attachments/assets/18c8f3a3-9d5b-422a-990b-8274cc566e14)
+![ideation sketch 2](https://github.com/user-attachments/assets/e0a60355-57d0-4465-b305-7332c6263323)
+
+### Iterations
+
+Rack & Pinion Setup – With Lauryn’s suggestion, I tried using a rack and pinion to move the origami. I 3D-printed a set and attempted to mesh it with the motor. Nikhil helped me out with this!
 
 
+Guiding Tracks – The rack kept slipping, so I added two wooden sticks as rails to keep the motion straight.
+
+Cardboard Box Housing – I mounted the system inside a cardboard box, cutting a diagonal slit to hold the form. I attached two bamboo skewers to adjacent sides of the origami — one fixed inside the box and the other connected to the rack, so only one side would move.
+
+Final Working Model – With some duct tape fixes and funny little add-ons, I managed to get the piece moving smoothly.
 
 
 
