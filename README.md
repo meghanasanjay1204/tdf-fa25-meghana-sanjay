@@ -283,6 +283,60 @@ Bloopers from the late night studios!
 - Eventually, I used ChatGPT to generate an alternative code, which worked. Roopa helped me out with this! That moment of seeing the mechanism finally move felt amazing.
 - Coding is never one-and-done; debugging is part of the process, and exploring alternative solutions often opens up new directions.
 
+### Final Outcome 
+![circuit diagram](https://github.com/user-attachments/assets/395bc1d1-9ae7-4fba-bb9d-571d718e287b)
+
+```
+#include <Servo.h>
+
+#define TRIG_PIN 11
+#define ECHO_PIN 12
+
+Servo myservo;
+long duration;
+int distance;
+int pos = 0;
+
+void setup() {
+  Serial.begin(9600);
+  pinMode(TRIG_PIN, OUTPUT);
+  pinMode(ECHO_PIN, INPUT);
+  myservo.attach(9);  // servo on pin 9
+}
+
+void loop() {
+  // --- Trigger the ultrasonic pulse ---
+  digitalWrite(TRIG_PIN, LOW);
+  delayMicroseconds(2);
+  digitalWrite(TRIG_PIN, HIGH);
+  delayMicroseconds(10);
+  digitalWrite(TRIG_PIN, LOW);
+
+  // --- Measure echo pulse ---
+  duration = pulseIn(ECHO_PIN, HIGH, 60000); // timeout 60ms
+  distance = duration * 0.034 / 2;           // convert to cm
+
+  Serial.print("Distance: ");
+  Serial.print(distance);
+  Serial.println(" cm");
+
+  // --- Check condition ---
+  if (distance > 0 && distance < 10) {
+    // sweep servo from 0° → 180° → 0°
+    for (pos = 0; pos <= 180; pos += 1) {
+      myservo.write(pos);
+      delay(15);
+    }
+    for (pos = 180; pos >= 0; pos -= 1) {
+      myservo.write(pos);
+      delay(15);
+    }
+  }
+
+  delay(500); // wait before next reading
+}
+```
+
 ### Reflections
 Presenting the working prototype in class, especially with the golden hour shots, was rewarding—it felt like my first proper breakthrough in this project.
 
