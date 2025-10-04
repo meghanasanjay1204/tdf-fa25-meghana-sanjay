@@ -284,7 +284,13 @@ Bloopers from the late night studios!
 - Coding is never one-and-done; debugging is part of the process, and exploring alternative solutions often opens up new directions.
 
 ### Final Outcome 
+
+Circuit Diagram
+
 ![circuit diagram](https://github.com/user-attachments/assets/395bc1d1-9ae7-4fba-bb9d-571d718e287b)
+
+Process Diagram
+![process diagram](https://github.com/user-attachments/assets/6f71c40d-2878-4062-9e6f-7fa6f1477650)
 
 ```
 #include <Servo.h>
