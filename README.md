@@ -8,8 +8,8 @@ I’m maintaining this journal to document my process through the Technology Des
 - [Week 2](#week-2)  
 - [Week 3](#week-3)  
 - [Week 4](#week-4)
-- [Week 5](#week-5)
-- [Week 6](#week-6)
+- [Week 6 | 28.09.2025 - 04.10.2025](#week-6)
+- [Week 7](#week-7)
 
 ---
 
