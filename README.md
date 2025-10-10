@@ -7,7 +7,9 @@ I’m maintaining this journal to document my process through the Technology Des
 - [Week 1](#week-1)  
 - [Week 2](#week-2)  
 - [Week 3](#week-3)  
-- [Week 4](#week-4)  
+- [Week 4](#week-4)
+- [Week 5](#week-5)
+- [Week 6](#week-6)
 
 ---
 
@@ -353,6 +355,11 @@ https://github.com/user-attachments/assets/5ac4b307-0ca4-4e50-b4bf-8da490913de1
 https://github.com/user-attachments/assets/ac54ac85-e233-4e25-b6e1-35feb3123039
 
 While this prototype gave me the satisfaction of solving mechanical and coding issues, I still feel drawn to my initial idea of creating a full motion. I want to revisit that direction in future iterations, exploring a more natural and expressive movement. This week showed me the joy of “making it work,” but I also want to push myself!
+
+# Week 6 | 28.09.2025 - 04.10.2025
+## Electronics 🔌
+
+
 
 
 
