@@ -1,4 +1,4 @@
-![PXL_20251010_181224679 MP](https://github.com/user-attachments/assets/83812f46-6ca9-4699-ba4c-fe6f328ebfaf)# TDF Weekly Progress Reports
+# TDF Weekly Progress Reports
 Hey, I'm Meghana (Megzu) 🌻
 I’m maintaining this journal to document my process through the Technology Design Foundation class, which is a mix of electronics and digital fabrication. Very excited to learn, experiment, and do fun stuff along the way!
 
@@ -398,25 +398,26 @@ The concept was to create an interactive system where the default state on scree
 ## Digital Fabrication 🛠️
 I focused on laser-cutting and prototyping the linkage arms and hinge mechanism. I began by sketching and testing the geometry in Illustrator, then iterated through three rounds of laser cutting to achieve the correct lengths and motion range.
 ![PXL_20251006_220430589 MP](https://github.com/user-attachments/assets/68657b9b-b7ff-4c6e-8b59-35ce41258330)
-![PXL_20251008_215032788 MP](https://github.com/user-attachments/assets/a82dc8cd-8160-4a15-98ac-334cb1a818a8)
 ![PXL_20251007_003956083 MP](https://github.com/user-attachments/assets/23d2b992-8412-42e5-9bb1-8023227ed24e)
 
 I made six sets of linkages and assembled them, keeping the system modular really helped during testing. In parallel, I also laser-cut a box structure to support the mechanism and keep it upright during assembly and testing.
 
 https://github.com/user-attachments/assets/ee66e950-3e75-43df-a2ec-989e59a7c697
-
 ![PXL_20251006_224919826 MP](https://github.com/user-attachments/assets/db4fe387-bf60-4dd5-bc05-38e4ffd3602a)
 ![PXL_20251007_153344184 MP](https://github.com/user-attachments/assets/6bf94df3-6b83-422f-ae99-a694b06a5611)
 
-Soon, I realized that the hub needed to be designed precisely for my setup rather than using a generic one from online sources. So, I modeled it in Fusion 360.
+Soon, I realized that the hub needed to be designed precisely for my setup rather than using a generic one from online sources. So, I modeled it in Fusion 360. 
+  
 ![PXL_20251006_235007879](https://github.com/user-attachments/assets/673237c8-c4b9-4d85-bde8-698afac5b0c1)
 ![PXL_20251008_025722609 MP](https://github.com/user-attachments/assets/49574a71-7e50-4521-a9ba-53ea73ecf7cd)
 ![PXL_20251008_200014261 MP](https://github.com/user-attachments/assets/ce7f0d38-718f-4f8f-ac64-df8e61a3e7f9)
 
 But of course, the first print didn’t go as planned — I hadn’t accounted for 3D printing shrinkage, so the center hole wasn’t wide enough. To make things worse, the screw holes on the sides didn’t align with the laser-cut linkages (another silly mistake!). After some advice and help from a friend, I redesigned the part more accurately, and finally, on the third 3D print, it worked perfectly. With a little sanding on the rod (thanks to Chris’s tip on how to smooth it properly), the hub fit beautifully, and the mechanism started functioning as intended.
+
 ![PXL_20251008_070320744 MP](https://github.com/user-attachments/assets/8e60bd6c-4590-479f-b74f-1dc0f7b05ecd)
 
 https://github.com/user-attachments/assets/b34c0f4c-b43b-492f-8981-fa94ac0023fb
+
 ![PXL_20251008_065638586 MP](https://github.com/user-attachments/assets/0f399d4e-e020-4837-8205-b67f7c070073)
 
 At this stage, I hadn’t yet considered the motor aspect, which I now realize I should have planned earlier. I decided to use a servo with a rack-and-pinion setup, similar to my first project — but this time with stronger rails and better fixtures. Unfortunately, I hadn’t designed it specifically for this setup, which led to several challenges with gear alignment and keeping the system stable at a consistent height. A frustrating but valuable learning experience.
