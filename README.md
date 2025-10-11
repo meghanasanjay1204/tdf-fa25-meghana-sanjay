@@ -1,5 +1,3 @@
-
-https://github.com/user-attachments/assets/08c15e4b-14da-4e96-b57d-2199e87b17e1
 # TDF Weekly Progress Reports
 Hey, I'm Meghana (Megzu) 🌻
 I’m maintaining this journal to document my process through the Technology Design Foundation class, which is a mix of electronics and digital fabrication. Very excited to learn, experiment, and do fun stuff along the way!
@@ -467,11 +465,6 @@ If I were to redo this project, I’d spend more time designing each part to fit
 ![PXL_20251010_190608392 MP](https://github.com/user-attachments/assets/04e83896-12f4-4132-b6ec-c1dc74668237)
 
 https://github.com/user-attachments/assets/de685112-5d46-4572-a77b-ce241ee6c8be
-
-
-
-
-
 
 
 
