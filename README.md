@@ -436,6 +436,10 @@ For the final setup, I added a cute animation of a person walking with a stick (
 
 https://github.com/user-attachments/assets/1d2a3fcb-0331-4fba-b358-c4b1c02f53e8
 
+### System Architecture Diagram
+![sys_arch diagram](https://github.com/user-attachments/assets/b02f4000-f3c1-48a2-9013-3333b4850d24)
+
+
 ## Reflection 💭
 
 Keeping the setup modular turned out to be extremely helpful — it allowed me to troubleshoot one part at a time. Working with a simple mechanism but refining it thoroughly taught me the importance of precision over complexity.
