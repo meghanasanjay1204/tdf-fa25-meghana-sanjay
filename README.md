@@ -445,6 +445,9 @@ https://editor.p5js.org/loopstick/sketches/MWZxoSNoP
 ### Mechanical Linkage Diagram
 ![mech linkage diagram](https://github.com/user-attachments/assets/f876fa41-f387-4b5d-906c-01d5ddc709b1)
 
+### Camera Input Diagram
+![camera input](https://github.com/user-attachments/assets/804ddcc4-a9ea-401d-80a4-61bfdb3ec213)
+
 ## Reflection 💭
 
 Keeping the setup modular turned out to be extremely helpful — it allowed me to troubleshoot one part at a time. Working with a simple mechanism but refining it thoroughly taught me the importance of precision over complexity.
