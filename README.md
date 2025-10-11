@@ -358,7 +358,42 @@ While this prototype gave me the satisfaction of solving mechanical and coding i
 
 # Week 6
 # 28.09.2025 - 04.10.2025
+### Overview
+This week, we were introduced to our next project — Expressive Mechanics. The goal was to design a kinetic mechanism that could interact with camera input, making it responsive and expressive through movement. It was an exciting shift, blending physical motion with digital sensing.
 ## Electronics 🔌
+This week’s electronics sessions introduced us to open programming and p5.js — both completely new to me. I started experimenting in class, playing around with some simple sketches and creating a few cute illustrations.
+
+https://github.com/user-attachments/assets/7e75d41f-cfca-45ed-a201-195a26d48f70
+
+![PXL_20251001_011442116 MP](https://github.com/user-attachments/assets/7bedb0c4-e525-4a87-84ac-9b5f151fc02b)
+
+https://github.com/user-attachments/assets/8e9a44b2-6f26-4bd0-90b0-f71cabe7c4a7
+
+We also learned how to integrate a potentiometer with p5.js and serial communication, making physical input control digital visuals. It was quite interesting to see how turning a small knob could bring motion and interactivity to the screen.
+
+https://github.com/user-attachments/assets/3524af56-ce84-4e64-a1d0-57aeee1c1d08
+
+## Digital Fabrication 🛠️
+
+I was inspired by some of the examples shown in class but wanted to understand the process by building something from scratch rather than replicating existing designs.
+![PXL_20251001_012030688 MP](https://github.com/user-attachments/assets/97fe6714-b5ad-4dbc-bcde-b9adbeb011ab)
+![PXL_20251001_011911773 MP](https://github.com/user-attachments/assets/8f594a7d-eab8-419f-b193-44ece0112577)
+
+I began by 3D printing a cam mechanism found online to study how the parts interact, but the attempt wasn’t successful — the components fused together due to adhesive issues and couldn’t move as intended. It was a useful learning experience in understanding tolerances and assembly techniques.
+![PXL_20251004_175119554 MP](https://github.com/user-attachments/assets/00d18c47-15a5-4b3e-bab1-85c5cbe5317c)
+![PXL_20251003_154824508 MP](https://github.com/user-attachments/assets/6d3fefc3-7aea-427c-abf4-92e8bcf83deb)
+![PXL_20251003_021008848 MP](https://github.com/user-attachments/assets/43f9ce9c-d5a2-4e9d-89c0-def38b6643d4)
+
+After that, I decided to explore the umbrella mechanism, intrigued by its simple yet effective motion. I studied a few reference videos and began designing a laser-cut version. I found and 3D printed a few versions of a six-connector hub to test with quarter-inch dowels available in the studio, but the fittings didn’t align properly. I plan to refine these connections and continue developing the system next week.
+
+Reference Video Link : https://www.youtube.com/shorts/FFWDxpNXd2E
+![PXL_20251006_210953134 MP](https://github.com/user-attachments/assets/6c01286b-5909-4908-bc53-21d05d6dffdd)
+
+# Week 7
+# 05.10.2025 - 11.10.2025
+## Electronics 🔌
+## Digital Fabrication 🛠️
+
 
 
 
