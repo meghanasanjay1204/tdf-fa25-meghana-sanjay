@@ -1,4 +1,4 @@
-# TDF Weekly Progress Reports
+![PXL_20251010_181224679 MP](https://github.com/user-attachments/assets/83812f46-6ca9-4699-ba4c-fe6f328ebfaf)# TDF Weekly Progress Reports
 Hey, I'm Meghana (Megzu) 🌻
 I’m maintaining this journal to document my process through the Technology Design Foundation class, which is a mix of electronics and digital fabrication. Very excited to learn, experiment, and do fun stuff along the way!
 
@@ -397,21 +397,53 @@ The concept was to create an interactive system where the default state on scree
 
 ## Digital Fabrication 🛠️
 I focused on laser-cutting and prototyping the linkage arms and hinge mechanism. I began by sketching and testing the geometry in Illustrator, then iterated through three rounds of laser cutting to achieve the correct lengths and motion range.
+![PXL_20251006_220430589 MP](https://github.com/user-attachments/assets/68657b9b-b7ff-4c6e-8b59-35ce41258330)
+![PXL_20251008_215032788 MP](https://github.com/user-attachments/assets/a82dc8cd-8160-4a15-98ac-334cb1a818a8)
+![PXL_20251007_003956083 MP](https://github.com/user-attachments/assets/23d2b992-8412-42e5-9bb1-8023227ed24e)
 
 I made six sets of linkages and assembled them, keeping the system modular really helped during testing. In parallel, I also laser-cut a box structure to support the mechanism and keep it upright during assembly and testing.
 
+https://github.com/user-attachments/assets/ee66e950-3e75-43df-a2ec-989e59a7c697
+
+![PXL_20251006_224919826 MP](https://github.com/user-attachments/assets/db4fe387-bf60-4dd5-bc05-38e4ffd3602a)
+![PXL_20251007_153344184 MP](https://github.com/user-attachments/assets/6bf94df3-6b83-422f-ae99-a694b06a5611)
+
 Soon, I realized that the hub needed to be designed precisely for my setup rather than using a generic one from online sources. So, I modeled it in Fusion 360.
+![PXL_20251006_235007879](https://github.com/user-attachments/assets/673237c8-c4b9-4d85-bde8-698afac5b0c1)
+![PXL_20251008_025722609 MP](https://github.com/user-attachments/assets/49574a71-7e50-4521-a9ba-53ea73ecf7cd)
+![PXL_20251008_200014261 MP](https://github.com/user-attachments/assets/ce7f0d38-718f-4f8f-ac64-df8e61a3e7f9)
 
-But of course, the first print didn’t go as planned — I hadn’t accounted for 3D printing shrinkage, so the center hole wasn’t wide enough. To make things worse, the screw holes on the sides didn’t align with the laser-cut linkages (another silly mistake!). After some advice and help from a friend, I redesigned the part more accurately, and finally, on the third 3D print, it worked perfectly.
+But of course, the first print didn’t go as planned — I hadn’t accounted for 3D printing shrinkage, so the center hole wasn’t wide enough. To make things worse, the screw holes on the sides didn’t align with the laser-cut linkages (another silly mistake!). After some advice and help from a friend, I redesigned the part more accurately, and finally, on the third 3D print, it worked perfectly. With a little sanding on the rod (thanks to Chris’s tip on how to smooth it properly), the hub fit beautifully, and the mechanism started functioning as intended.
+![PXL_20251008_070320744 MP](https://github.com/user-attachments/assets/8e60bd6c-4590-479f-b74f-1dc0f7b05ecd)
 
-With a little sanding on the rod (thanks to Chris’s tip on how to smooth it properly), the hub fit beautifully, and the mechanism started functioning as intended.
+https://github.com/user-attachments/assets/b34c0f4c-b43b-492f-8981-fa94ac0023fb
+![PXL_20251008_065638586 MP](https://github.com/user-attachments/assets/0f399d4e-e020-4837-8205-b67f7c070073)
 
 At this stage, I hadn’t yet considered the motor aspect, which I now realize I should have planned earlier. I decided to use a servo with a rack-and-pinion setup, similar to my first project — but this time with stronger rails and better fixtures. Unfortunately, I hadn’t designed it specifically for this setup, which led to several challenges with gear alignment and keeping the system stable at a consistent height. A frustrating but valuable learning experience.
+![PXL_20251009_033414482 MP](https://github.com/user-attachments/assets/5944e065-0451-4b9c-a7ba-473f064eab4e)
+![PXL_20251009_033036670 MP](https://github.com/user-attachments/assets/997c9a08-f576-4564-8817-9860b1740659)
+![PXL_20251009_001859123 MP](https://github.com/user-attachments/assets/a0cc8ac3-786b-4566-aad1-a83508a248b8)
 
 ## Electronics 🔌
+For the electronics part of this project, I used a servo motor connected to a gear to drive the umbrella’s motion. Initially, I used the base code shared by Prof Sudhu, but I struggled for quite some time because I was running it in a different p5.js link. Only later did I realize that the library HTML files were preloaded in his link, which is why the code worked there and not in mine. Lesson learned.
 
+After sorting that out, I used ChatGPT to write a few variations of the code and animation. In the first version, the system reacted backward, it started raining when I moved far away and turned into daylight when I came closer. Fixing this logic took a bit of tweaking.
 
+Then came another issue: the servo motor was moving abruptly from 0° to 180° instead of transitioning smoothly. Adjusting the motion speed and delay finally made the umbrella open gracefully.
 
+For the final setup, I added a cute animation of a person walking with a stick (representing the umbrella). When someone comes close to the screen, it starts raining, and the person on screen raises the stick — mimicking the action of opening an umbrella, which simultaneously triggers the real kinetic umbrella mechanism behind the laptop.\
+
+https://github.com/user-attachments/assets/1d2a3fcb-0331-4fba-b358-c4b1c02f53e8
+
+## Reflection 💭
+
+Keeping the setup modular turned out to be extremely helpful — it allowed me to troubleshoot one part at a time. Working with a simple mechanism but refining it thoroughly taught me the importance of precision over complexity.
+![PXL_20251009_214840186 MP](https://github.com/user-attachments/assets/210df4e8-6d87-458a-bd7a-38d71194a5fd)
+
+If I were to redo this project, I’d spend more time designing each part to fit together precisely, instead of relying on tape or glue for quick fixes — they’re very ad hoc and end up wasting time. Overall, this project helped me better understand how to link physical and digital motion meaningfully. Also the aspect of storytelling worked out well!
+
+![PXL_20251010_181224890](https://github.com/user-attachments/assets/fd690b94-cf5d-46bb-ac07-72aa6b2b77c3)
+![PXL_20251010_190608392 MP](https://github.com/user-attachments/assets/04e83896-12f4-4132-b6ec-c1dc74668237)
 
 
 
