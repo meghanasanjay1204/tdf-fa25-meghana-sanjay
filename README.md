@@ -1,3 +1,5 @@
+
+https://github.com/user-attachments/assets/08c15e4b-14da-4e96-b57d-2199e87b17e1
 # TDF Weekly Progress Reports
 Hey, I'm Meghana (Megzu) 🌻
 I’m maintaining this journal to document my process through the Technology Design Foundation class, which is a mix of electronics and digital fabrication. Very excited to learn, experiment, and do fun stuff along the way!
@@ -402,6 +404,8 @@ I focused on laser-cutting and prototyping the linkage arms and hinge mechanism.
 
 I made six sets of linkages and assembled them, keeping the system modular really helped during testing. In parallel, I also laser-cut a box structure to support the mechanism and keep it upright during assembly and testing.
 
+
+https://github.com/user-attachments/assets/bffcd69d-104b-4a13-89a2-922d142a303a
 https://github.com/user-attachments/assets/ee66e950-3e75-43df-a2ec-989e59a7c697
 ![PXL_20251006_224919826 MP](https://github.com/user-attachments/assets/db4fe387-bf60-4dd5-bc05-38e4ffd3602a)
 ![PXL_20251007_153344184 MP](https://github.com/user-attachments/assets/6bf94df3-6b83-422f-ae99-a694b06a5611)
@@ -430,7 +434,11 @@ For the electronics part of this project, I used a servo motor connected to a ge
 
 After sorting that out, I used ChatGPT to write a few variations of the code and animation. In the first version, the system reacted backward, it started raining when I moved far away and turned into daylight when I came closer. Fixing this logic took a bit of tweaking.
 
+https://github.com/user-attachments/assets/9b57af1d-86f4-4a16-a96e-a202a2712da2
+
 Then came another issue: the servo motor was moving abruptly from 0° to 180° instead of transitioning smoothly. Adjusting the motion speed and delay finally made the umbrella open gracefully.
+
+https://github.com/user-attachments/assets/dedc0197-cff3-4ab2-8926-d64632c2b5c3
 
 For the final setup, I added a cute animation of a person walking with a stick (representing the umbrella). When someone comes close to the screen, it starts raining, and the person on screen raises the stick — mimicking the action of opening an umbrella, which simultaneously triggers the real kinetic umbrella mechanism behind the laptop.\
 
@@ -457,6 +465,9 @@ If I were to redo this project, I’d spend more time designing each part to fit
 
 ![PXL_20251010_181224890](https://github.com/user-attachments/assets/fd690b94-cf5d-46bb-ac07-72aa6b2b77c3)
 ![PXL_20251010_190608392 MP](https://github.com/user-attachments/assets/04e83896-12f4-4132-b6ec-c1dc74668237)
+
+https://github.com/user-attachments/assets/de685112-5d46-4572-a77b-ce241ee6c8be
+
 
 
 
