@@ -442,11 +442,58 @@ For the final setup, I added a cute animation of a person walking with a stick (
 
 https://github.com/user-attachments/assets/1d2a3fcb-0331-4fba-b358-c4b1c02f53e8
 
-### System Architecture Diagram
-![sys_arch diagram](https://github.com/user-attachments/assets/b02f4000-f3c1-48a2-9013-3333b4850d24)
 
 ### p5.js code
 https://editor.p5js.org/loopstick/sketches/MWZxoSNoP
+
+### Arduino code
+```
+#include <Servo.h>
+
+Servo myServo;
+int servoPin = 7;
+
+int currentAngle = 0;   // current servo position
+int targetAngle = 0;    // target position received from p5.js
+int stepDelay = 10;     // delay in ms between small steps
+
+void setup() {
+  Serial.begin(115200);
+  myServo.attach(servoPin);
+  myServo.write(currentAngle);  // start at 0° (daylight)
+}
+
+void loop() {
+  // Check for serial input
+  if (Serial.available() > 0) {
+    int angle = Serial.parseInt();
+    if (angle >= 0 && angle <= 180) {
+      targetAngle = angle;  // update target
+      Serial.print("Target angle set to: ");
+      Serial.println(targetAngle);
+    }
+    // Clear leftover serial bytes
+    while (Serial.available() > 0) {
+      Serial.read();
+    }
+  }
+
+  // Smooth transition to target
+  if (currentAngle < targetAngle) {
+    currentAngle++;
+    myServo.write(currentAngle);
+    delay(stepDelay);
+  } 
+  else if (currentAngle > targetAngle) {
+    currentAngle--;
+    myServo.write(currentAngle);
+    delay(stepDelay);
+  }
+}
+```
+
+### System Architecture Diagram
+![sys_arch diagram](https://github.com/user-attachments/assets/b02f4000-f3c1-48a2-9013-3333b4850d24)
 
 ### Mechanical Linkage Diagram
 ![mech linkage diagram](https://github.com/user-attachments/assets/f876fa41-f387-4b5d-906c-01d5ddc709b1)
