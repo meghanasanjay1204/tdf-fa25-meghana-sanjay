@@ -439,6 +439,219 @@ https://github.com/user-attachments/assets/1d2a3fcb-0331-4fba-b358-c4b1c02f53e8
 ### System Architecture Diagram
 ![sys_arch diagram](https://github.com/user-attachments/assets/b02f4000-f3c1-48a2-9013-3333b4850d24)
 
+### p5.js code
+let serialOptions = { baudRate: 115200 };
+let serial;
+let servoAngle = 0;
+let lastSentAngle = -1;
+
+let video;
+let bodyPose;
+let poses = [];
+
+let isPersonDetected = false;
+let distanceThreshold = 120; // pixels
+let rainParticles = [];
+
+let personX = -100; // character initial x position
+let stickRaise = 0; // stick animation
+let stickTarget = 0;
+
+function setup() {
+  createCanvas(640, 480);
+
+  // Video & Pose
+  video = createCapture(VIDEO);
+  video.size(width, height);
+  video.hide();
+
+  bodyPose = ml5.bodyPose();
+  bodyPose.detectStart(video, gotPoses);
+
+  // Serial
+  serial = new Serial();
+  serial.on(SerialEvents.CONNECTION_OPENED, onSerialConnectionOpened);
+  serial.on(SerialEvents.CONNECTION_CLOSED, onSerialConnectionClosed);
+  serial.on(SerialEvents.DATA_RECEIVED, onSerialDataReceived);
+  serial.on(SerialEvents.ERROR_OCCURRED, onSerialErrorOccurred);
+  serial.autoConnectAndOpenPreviouslyApprovedPort(serialOptions);
+
+  // Rain particles
+  for (let i = 0; i < 120; i++) {
+    rainParticles.push(new RainParticle());
+  }
+
+  textFont('Helvetica');
+}
+
+function gotPoses(newPoses) {
+  poses = newPoses;
+}
+
+function draw() {
+  let personDetectedNow = false;
+
+  if (poses.length > 0) {
+    let left_ear = poses[0].left_ear;
+    let right_ear = poses[0].right_ear;
+    if (left_ear && right_ear) {
+      let earDist = dist(left_ear.x, left_ear.y, right_ear.x, right_ear.y);
+      personDetectedNow = earDist > distanceThreshold; // close = rain
+    }
+  }
+
+  // Scene logic
+  if (personDetectedNow !== isPersonDetected) {
+    isPersonDetected = personDetectedNow;
+    servoAngle = isPersonDetected ? 180 : 0;
+    if (servoAngle !== lastSentAngle) {
+      serial.writeLine(servoAngle);
+      lastSentAngle = servoAngle;
+    }
+    stickTarget = isPersonDetected ? -PI / 3 : 0; // raise stick in rain
+  }
+
+  // Animate character entry
+  personX = min(width * 0.5, personX + 2); 
+  stickRaise = lerp(stickRaise, stickTarget, 0.1);
+
+  // Draw
+  if (isPersonDetected) drawRainScene();
+  else drawDaylightScene();
+
+  drawCharacter(personX, height * 0.75, stickRaise);
+
+  // Overlay info
+  noStroke();
+  fill(255, 230);
+  rect(6, height - 44, 240, 38, 6);
+  fill(10);
+  textSize(14);
+  textAlign(LEFT, TOP);
+  text("Mode: " + (isPersonDetected ? "Rain (close)" : "Daylight (far)"), 12, height - 40);
+  text("Servo: " + servoAngle + "°", 12, height - 22);
+  textSize(12);
+  text("Threshold: " + distanceThreshold + " px", 140, height - 22);
+}
+
+function drawDaylightScene() {
+  for (let y = 0; y < height; y++) {
+    let inter = map(y, 0, height, 0, 1);
+    let c = lerpColor(color(135, 206, 250), color(255, 255, 255), inter * 0.6);
+    stroke(c);
+    line(0, y, width, y);
+  }
+
+  // sun (no glow)
+  noStroke();
+  fill(255, 230, 80);
+  ellipse(width * 0.85, height * 0.22, 60);
+
+  // clouds
+  drawCloud(width * 0.2, height * 0.2, 1.0);
+  drawCloud(width * 0.45, height * 0.15, 0.9);
+  drawCloud(width * 0.6, height * 0.28, 1.1);
+
+  // grass
+  noStroke();
+  fill(120, 200, 100);
+  rect(0, height * 0.75, width, height * 0.25);
+}
+
+function drawRainScene() {
+  background(60, 75, 90);
+  noStroke();
+  fill(80, 95, 110);
+  rect(0, height * 0.6, width, height * 0.4);
+
+  for (let p of rainParticles) {
+    p.update();
+    p.draw();
+  }
+
+  fill(30, 60, 80, 200);
+  ellipse(width * 0.5, height * 0.86, width * 0.8, 60);
+}
+
+class RainParticle {
+  constructor() {
+    this.reset();
+  }
+  reset() {
+    this.x = random(-50, width + 50);
+    this.y = random(-height, 0);
+    this.len = random(8, 18);
+    this.speed = random(6, 12);
+    this.thickness = random(1, 2.5);
+    this.alpha = random(130, 220);
+  }
+  update() {
+    this.x += sin(frameCount * 0.02 + this.x * 0.001) * 0.6;
+    this.y += this.speed;
+    if (this.y > height) this.reset();
+  }
+  draw() {
+    stroke(180, 210, 230, this.alpha);
+    strokeWeight(this.thickness);
+    line(this.x, this.y, this.x, this.y + this.len);
+  }
+}
+
+function drawCharacter(x, y, stickAngle) {
+  push();
+  translate(x, y);
+
+  // body
+  stroke(0);
+  strokeWeight(3);
+  fill(230, 180, 120);
+  line(0, -40, 0, 0); // torso
+  ellipse(0, -50, 20); // head
+
+  // arms
+  push();
+  translate(0, -35);
+  strokeWeight(3);
+  // left arm
+  line(0, 0, -15, 10);
+  // right arm (stick)
+  rotate(stickAngle);
+  line(0, 0, 20, -10);
+  // stick
+  stroke(80);
+  strokeWeight(2);
+  line(20, -10, 20, -50);
+  pop();
+
+  // legs
+  line(0, 0, -10, 20);
+  line(0, 0, 10, 20);
+  pop();
+}
+
+function drawCloud(cx, cy, scaleFactor) {
+  push();
+  translate(cx, cy);
+  noStroke();
+  fill(255, 250);
+  ellipse(-30 * scaleFactor, 0, 60 * scaleFactor, 40 * scaleFactor);
+  ellipse(0, -10 * scaleFactor, 80 * scaleFactor, 50 * scaleFactor);
+  ellipse(30 * scaleFactor, 0, 60 * scaleFactor, 40 * scaleFactor);
+  pop();
+}
+
+function onSerialErrorOccurred(_, error) { console.log("Serial Error:", error); }
+function onSerialConnectionOpened() { console.log("Serial connected"); }
+function onSerialConnectionClosed() { console.log("Serial closed"); }
+function onSerialDataReceived(_, newData) { console.log("Arduino:", newData); }
+function mouseClicked() { if (serial && !serial.isOpen()) serial.connectAndOpen(null, serialOptions); }
+function keyPressed() {
+  if (key === 'ArrowUp') distanceThreshold += 8;
+  if (key === 'ArrowDown') distanceThreshold = max(20, distanceThreshold - 8);
+}
+
+### Mechanical Linkage Diagram
+![mech linkage diagram](https://github.com/user-attachments/assets/f876fa41-f387-4b5d-906c-01d5ddc709b1)
 
 ## Reflection 💭
 
