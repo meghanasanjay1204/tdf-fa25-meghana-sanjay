@@ -391,9 +391,24 @@ Reference Video Link : https://www.youtube.com/shorts/FFWDxpNXd2E
 
 # Week 7
 # 05.10.2025 - 11.10.2025
-## Electronics 🔌
-## Digital Fabrication 🛠️
+## Overview ☂️
+By this week, I had a clear idea of what I wanted to accomplishm, a linkage mechanism that opens and closes in the air like an umbrella, held together at the center by a rod. The setup involved two hubs: one fixed at the top of the stick and another movable one that would slide along it.
+The concept was to create an interactive system where the default state on screen shows a bright, daylight scene. When the camera detects a person’s face, a rain animation would play, simultaneously triggering the umbrella mechanism to open, symbolizing the connection between human presence and environmental change.
 
+## Digital Fabrication 🛠️
+I focused on laser-cutting and prototyping the linkage arms and hinge mechanism. I began by sketching and testing the geometry in Illustrator, then iterated through three rounds of laser cutting to achieve the correct lengths and motion range.
+
+I made six sets of linkages and assembled them, keeping the system modular really helped during testing. In parallel, I also laser-cut a box structure to support the mechanism and keep it upright during assembly and testing.
+
+Soon, I realized that the hub needed to be designed precisely for my setup rather than using a generic one from online sources. So, I modeled it in Fusion 360.
+
+But of course, the first print didn’t go as planned — I hadn’t accounted for 3D printing shrinkage, so the center hole wasn’t wide enough. To make things worse, the screw holes on the sides didn’t align with the laser-cut linkages (another silly mistake!). After some advice and help from a friend, I redesigned the part more accurately, and finally, on the third 3D print, it worked perfectly.
+
+With a little sanding on the rod (thanks to Chris’s tip on how to smooth it properly), the hub fit beautifully, and the mechanism started functioning as intended.
+
+At this stage, I hadn’t yet considered the motor aspect, which I now realize I should have planned earlier. I decided to use a servo with a rack-and-pinion setup, similar to my first project — but this time with stronger rails and better fixtures. Unfortunately, I hadn’t designed it specifically for this setup, which led to several challenges with gear alignment and keeping the system stable at a consistent height. A frustrating but valuable learning experience.
+
+## Electronics 🔌
 
 
 
