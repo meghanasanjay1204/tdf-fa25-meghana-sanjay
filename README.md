@@ -537,9 +537,10 @@ This exercise was really helpful for understanding how data can be translated in
 
 
 https://github.com/user-attachments/assets/e19ddcee-45c5-47af-a1fb-5a79871ffefb
-![PXL_20251024_012630775 MP](https://github.com/user-attachments/assets/02748086-799f-4ac2-9924-fed0a984fba1)
-https://github.com/user-attachments/assets/79f17661-65a7-40cd-b0e1-f830626d0ea4
 
+![PXL_20251024_012630775 MP](https://github.com/user-attachments/assets/02748086-799f-4ac2-9924-fed0a984fba1)
+
+https://github.com/user-attachments/assets/79f17661-65a7-40cd-b0e1-f830626d0ea4
 
 
 ## Concept Development
