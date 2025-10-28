@@ -513,6 +513,48 @@ If I were to redo this project, I’d spend more time designing each part to fit
 
 https://github.com/user-attachments/assets/de685112-5d46-4572-a77b-ce241ee6c8be
 
+# Week 8
+# 12.10.2025 - 18.10.2025
+## Overview 
+This week, we were introduced to the Ambient Display Project, which focuses on creating subtle, interactive displays that respond to environmental or personal data. In class, we saw several examples of quick 3D printing prototypes and other tangible interfaces that helped us understand the potential for merging physical and digital interactions.
+![PXL_20251017_005721115 MP](https://github.com/user-attachments/assets/a8525e9d-d433-4f10-b0c6-bc02588585a4)
+
+## Hardware Exercise: ESP32 & Soldering
+
+For our project, we decided to use the ESP32 microcontroller to connect our display to an API. This required soldering the components, which was a great hands-on exercise in preparing our hardware for real-time data communication. I also made a tiny mistake by cutting off one extra pin from the long row we received hence had to add a last pin manually.
+![PXL_20251015_213946425 MP](https://github.com/user-attachments/assets/c37274bd-3d23-40c9-a956-9d324b757881)
+![PXL_20251015_213944195 MP](https://github.com/user-attachments/assets/d80fb408-92e7-4539-a950-bc4f9429c94a)
+![PXL_20251015_214341434 MP](https://github.com/user-attachments/assets/58979117-5ead-40b3-8595-121d5ce6b4d3)
+
+## Assignment: Getting the Onboard NeoPixel Working
+
+As part of the weekly assignment, we had to get the onboard NeoPixel on the ESP32 working using live weather data from Jacobs. Thanks to Roopa’s awesome tutorial, I was able to:
+
+- Connect the ESP32 to the API and fetch real-time weather data
+- Program the onboard NeoPixel to display colors corresponding to different weather conditions
+
+This exercise was really helpful for understanding how data can be translated into visual and ambient feedback.
+
+
+https://github.com/user-attachments/assets/e19ddcee-45c5-47af-a1fb-5a79871ffefb
+![PXL_20251024_012630775 MP](https://github.com/user-attachments/assets/02748086-799f-4ac2-9924-fed0a984fba1)
+https://github.com/user-attachments/assets/79f17661-65a7-40cd-b0e1-f830626d0ea4
+
+
+
+## Concept Development
+
+I started brainstorming ideas with my teammate Edna, focusing on the theme of overstimulation and calming routines. We explored concepts that could:
+
+- Visualize the process of overstimulation throughout the day
+- Provide a wind-down experience at the beginning and end of the day
+
+Our goal is to create an ambient display that subtly guides the user’s emotional and sensory experience at different points in the day.
+
+
+
+
+
 
 
 
