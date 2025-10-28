@@ -559,7 +559,36 @@ Our goal is to create an ambient display that subtly guides the user’s emotion
 # Week 9
 # 19.10.2025 - 25.10.2025
 ## Overview 
-https://photos.google.com/share/AF1QipMxNwIZ74vIEKWEaImfGgYIMHh2-s4uCevJn5IzMqM1D6UqLxac40Nyo_QqSbV-Zg/photo/AF1QipMANYySLTfLbqVFfzA6M1a1yM4ejb7EafTy2lB3?key=SHRsUHhBNjgxWlFBTjllMUN2TTI2WmN6UWVlZzh3
+
+After much thought, we decided to move forward with a thread unspooling mechanism. We wanted something simple yet meaningful—a way to represent how a thread unwinds, reminding the person to unwind after a long day or after the overstimulation of digital experiences.
+![IMG_7389](https://github.com/user-attachments/assets/4a02bc94-5627-4558-8ee8-94731e125adc)
+![IMG_7393](https://github.com/user-attachments/assets/a3dc4d72-b388-4b0f-b2e8-5f0596e0ce29)
+
+https://github.com/user-attachments/assets/0e346440-d98e-4e89-bbf6-b1583a1840ae
+
+## Prototyping
+
+We started by sketching multiple prototype ideas to visualize how the mechanism could function. Once we had a rough concept, we prepared the laser-cut files, assembled the model, and conducted a first manual test to see how the thread unspooled.
+
+![PXL_20251021_173409553 MP](https://github.com/user-attachments/assets/f01fed6c-87fd-4f67-b026-62b6acc628bd)
+
+https://github.com/user-attachments/assets/f0ee95ed-adc2-4708-818d-7a4bdf3a6b02
+
+https://github.com/user-attachments/assets/18fe5af1-8ebf-4280-b1a9-c2f64f623a60
+
+https://github.com/user-attachments/assets/37579928-5871-46f2-a68b-e14eeaf349eb
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
