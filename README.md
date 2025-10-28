@@ -10,6 +10,7 @@ I’m maintaining this journal to document my process through the Technology Des
 - [Week 4](#week-4)
 - [Week 6](#week-6)
 - [Week 7](#week-7)
+- [Week 8](#week-8)
 
 ---
 
@@ -550,7 +551,18 @@ I started brainstorming ideas with my teammate Edna, focusing on the theme of ov
 - Visualize the process of overstimulation throughout the day
 - Provide a wind-down experience at the beginning and end of the day
 
-Our goal is to create an ambient display that subtly guides the user’s emotional and sensory experience at different points in the day.
+Our goal is to create an ambient display that subtly guides the user’s emotional and sensory experience at different points in the day. Here are some initial sketches from our discussions.
+
+![IMG_7397](https://github.com/user-attachments/assets/6d9f1b4e-b089-42e4-9c06-809510744040)
+![PXL_20251018_013539633 MP](https://github.com/user-attachments/assets/fc48d74a-aab5-48ae-ad77-772af83b8a58)
+
+# Week 9
+# 19.10.2025 - 25.10.2025
+## Overview 
+https://photos.google.com/share/AF1QipMxNwIZ74vIEKWEaImfGgYIMHh2-s4uCevJn5IzMqM1D6UqLxac40Nyo_QqSbV-Zg/photo/AF1QipMANYySLTfLbqVFfzA6M1a1yM4ejb7EafTy2lB3?key=SHRsUHhBNjgxWlFBTjllMUN2TTI2WmN6UWVlZzh3
+
+
+
 
 
 
