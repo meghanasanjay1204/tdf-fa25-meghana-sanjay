@@ -566,7 +566,7 @@ After much thought, we decided to move forward with a thread unspooling mechanis
 
 https://github.com/user-attachments/assets/0e346440-d98e-4e89-bbf6-b1583a1840ae
 
-## Prototyping
+### Prototyping
 
 We started by sketching multiple prototype ideas to visualize how the mechanism could function. Once we had a rough concept, we prepared the laser-cut files, assembled the model, and conducted a first manual test to see how the thread unspooled.
 
@@ -577,6 +577,58 @@ https://github.com/user-attachments/assets/f0ee95ed-adc2-4708-818d-7a4bdf3a6b02
 https://github.com/user-attachments/assets/18fe5af1-8ebf-4280-b1a9-c2f64f623a60
 
 https://github.com/user-attachments/assets/37579928-5871-46f2-a68b-e14eeaf349eb
+
+### Insights and Next Steps
+
+From this first prototype, we realized a few important things about the mechanism. The kind of mechanism we were aiming for required two continuous servo motors:
+1. One for the top dowel to spin
+2. Another for the bottom disc, which collects the spool, to rotate at the same speed to form a spiral
+The synchronized movement of both motors is essential for a smooth, consistent unspooling
+
+With the mechanical concept clarified, we are now planning to explore form designs—considering aesthetics, materials, and how the visual spiral can convey the calming, unwinding experience we want for the user.
+![IMG_7415](https://github.com/user-attachments/assets/c4d813c2-637a-404a-af46-7eb6acd40250)
+![PXL_20251023_055725398 MP](https://github.com/user-attachments/assets/0e62899d-dc25-4941-9257-692752df5f6b)
+
+### API Triggers
+
+We decided to use sunset and sunrise as the perfect API calls for this project as these are the best times of the day to put you in a calm mood, and we might even sync it with a few different time zones to see how the ambient effect changes across contexts. We used this to trigger the onboard NeoPixel on the ESP32. This experiment helped us explore how the device could respond to daily natural cycles, tying back to our theme of winding down at the start and end of the day.
+
+![PXL_20251024_012630775 MP](https://github.com/user-attachments/assets/f32ae00c-ab6c-46da-99b9-77a4939bfa5f)
+
+https://github.com/user-attachments/assets/e60ba91e-7a45-432e-8b78-8bab7999a45e
+
+### Form Exploration & 3D Printing
+
+We began 3D printing the form we had sketched earlier using white PLA. The idea was to start shaping the physical structure that would hold our mechanism and electronics while maintaining a clean, minimal aesthetic. We printed a few initial parts, including:
+
+1. The frame, which supports the entire setup
+2. The bowl, where we planned to set up all our electronic components
+3. A disc on top, where the unspooled thread would gently fall and form patterns
+![PXL_20251024_023443513 MP](https://github.com/user-attachments/assets/72914bb8-170e-43f7-b90a-32cbd389cbdf)
+![IMG_7435](https://github.com/user-attachments/assets/06b659eb-0295-48f6-bcd4-81ebaf6cb625)
+![IMG_7438](https://github.com/user-attachments/assets/2c5486e2-8d0c-4aa0-9905-7e55a8d028b7)
+![IMG_7432](https://github.com/user-attachments/assets/bf377504-6615-43c1-86f4-7da9a0b74815)
+![IMG_7441](https://github.com/user-attachments/assets/82f89747-b536-44f4-bd8a-17f0416e3d07)
+![IMG_7512](https://github.com/user-attachments/assets/a142946b-661f-481b-b78c-9d50ba21ff30)
+
+### Mechanism Testing with Gears
+
+Alongside printing, we also laser cut some gears to quickly test if two interlocking gears could create a smooth rotational motion. In this setup:
+
+- One gear connects to a servo motor mounted vertically at the bottom of the bowl
+- This gear touches another gear connected to a dowel, mounted at the center of the bowl’s base
+- As the servo rotates, it drives the second gear, causing the dowel to spin, which in turn would rotate the disc on top
+![IMG_7513](https://github.com/user-attachments/assets/f6a999c8-6068-4388-a4d2-bf1e65a477d7)
+![IMG_7443](https://github.com/user-attachments/assets/365865d1-c60f-4010-8d8a-93ae92c86189)
+![IMG_7444](https://github.com/user-attachments/assets/6157c644-e737-4632-b5a2-791a03214d0d)
+
+
+https://github.com/user-attachments/assets/03ace71e-bcf5-4fe3-a253-17932377d706
+![IMG_7521](https://github.com/user-attachments/assets/874f625d-6f9a-40e3-959b-dbefd45bf6ce)
+
+
+This test helped us understand how we could translate the servo’s motion into a stable, synchronized rotation for the unspooling mechanism.
+
 
 
 # Week 10
