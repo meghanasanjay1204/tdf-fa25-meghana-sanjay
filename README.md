@@ -702,6 +702,10 @@ https://github.com/user-attachments/assets/bbc6a605-7310-4299-af58-2c9956476c48
 ### Data Flow Diagram
 ![Copy of Blank board](https://github.com/user-attachments/assets/184baf47-cde0-4865-8251-dfce013ffdd2)
 
+### Hardware Architecture Diagram
+
+![Copy of Blank board (1)](https://github.com/user-attachments/assets/13f13aec-2a95-4528-b202-cbeff0db3cf1)
+
 
 ### Reflections & Learnings
 
