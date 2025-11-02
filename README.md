@@ -648,70 +648,86 @@ This week marked the final stretch of our Ambient Display project. We focused on
 ### Refining the 3D Form
 
 In our previous prototype, we realized which parts needed adjustments. We fixed those dimensional errors, added mounting holes, and reprinted the necessary components. The frame was updated to include a pocket for the servo, allowing it to sit securely inside the structure. The disc on top was also modified with holes for screws and wire routing.
+![IMG_7558](https://github.com/user-attachments/assets/ee4574df-19d8-4ffc-a740-c8e4a913c5bb)
+![IMG_7560](https://github.com/user-attachments/assets/f1717016-bd7e-4f1e-84c9-5441497ae34e)
+![IMG_7562](https://github.com/user-attachments/assets/a2041b73-0cdd-4753-a41e-a3f7ee41e0c3)
+![IMG_7583](https://github.com/user-attachments/assets/08a8b7fd-d1be-4a71-bbcd-d25fc3c9248f)
 
-Add photos here: [Updated prints / servo pocket / assembly progress]
+https://github.com/user-attachments/assets/c8c2ae1c-a95d-4f04-84e1-143f333fa9c8
 
 ### Moving to ESP32 Integration
 
 Up until this point, we had been using the Arduino to test and control the servos. This week, we transitioned everything to the ESP32, allowing us to power and control all components from a single board. This made the setup more compact, reliable, and network-ready for API integration.
+![IMG_7595](https://github.com/user-attachments/assets/6cdbf23e-e133-4f15-a803-678702cf587a)
+![IMG_7596](https://github.com/user-attachments/assets/d0dd66dc-785c-4c92-8b80-0fb6c4510f38)
 
-Add photos here: [ESP32 wiring / servo test / full circuit]
 
 ### NeoPixel Setup & Color Logic
 
 We decided to replace the NeoPixel stick with a RGB LED NeoPixel strip, which gave a softer and cleaner lighting effect inside the circular disc. Using this setup, we programmed two color transitions:
 
-Sunrise: light yellow → warm yellow → bright golden orange
+- Sunrise: light yellow → warm yellow → bright golden orange
 
-Sunset: warm yellow → orange → pink → deep purple
+- Sunset: warm yellow → orange → pink → deep purple
 
 These color transitions represent daily rhythms—helping users wind up and wind down in sync with natural light cycles.
+![IMG_7586](https://github.com/user-attachments/assets/df3c3757-bee6-4d07-bcaf-dc0f4092b415)
 
-Add photos here: [NeoPixel inside disc / color transitions / code test]
+https://github.com/user-attachments/assets/0ec1f46a-17a5-40dd-9ce2-d65b2ccfa966
 
-Final Testing at the Bus Stop (Yes, Really!)
+https://github.com/user-attachments/assets/fefcfdc1-011e-49c3-976e-91326f1b44d9
 
-For our final prototype test, we decided to have a bit of fun and ran it at the bus stop, tapping into the sunset time of Honolulu via API. The system worked perfectly — both servos triggered in sync, the lights responded to the real-time API call, and the full ambient experience came to life.
+https://github.com/user-attachments/assets/084f15ba-242c-431b-a6ba-4c2600e38926
 
-Add photos here: [Field test / servo movement / final setup]
+### Final Testing at the Bus Stop (Yes, Really!)
 
-Final Product
+For our final prototype test, we decided to have a bit of fun and ran it at the bus stop because we were too late , tapping into the sunset time of Honolulu via API. The system worked perfectly — both servos triggered in sync, the lights responded to the real-time API call, and the full ambient experience came to life.
+![IMG_7602](https://github.com/user-attachments/assets/7a088e9e-d796-4573-8d75-61ba6d691b40)
+
+
+### Final Product
 
 Our Ambient Display is finally complete — a poetic reminder to unwind at the beginning and end of each day. It can even be synced with multiple time zones, connecting users to places close to their heart or home.
 
-The servo motors rotate clockwise to unwind the thread and anticlockwise to coil it back up.
+- The servo motors rotate clockwise to unwind the thread and anticlockwise to coil it back up.
 
-This motion repeats gently over the course of five minutes, aligning with sunrise and sunset durations.
+- This motion repeats gently over the course of five minutes, aligning with sunrise and sunset durations.
 
-The light transitions add a calming, atmospheric layer to the interaction.
+- The light transitions add a calming, atmospheric layer to the interaction.
 
-Add photos here: [Final product shots / thread mechanism / light sequence]
+https://github.com/user-attachments/assets/f0eff56e-e7e1-47d2-8159-a993ee9b2b47
 
-Reflections & Learnings
+https://github.com/user-attachments/assets/bbc6a605-7310-4299-af58-2c9956476c48
+
+### Data Flow Diagram
+![Copy of Blank board](https://github.com/user-attachments/assets/184baf47-cde0-4865-8251-dfce013ffdd2)
+
+
+### Reflections & Learnings
 
 This project was a huge learning experience — technically, creatively, and collaboratively.
 
-What worked well:
+#### What worked well:
 
-Early testing of individual components made it easier to assemble everything later.
+- Early testing of individual components made it easier to assemble everything later.
 
-Collaborating with a partner (Edna!) helped in sharing ideas and problem-solving.
+- Collaborating with a partner (Edna!) helped in sharing ideas and problem-solving.
 
-Seeing all new components — servos, ESP32, NeoPixel, API calls — come together smoothly was incredibly rewarding.
+- Seeing all new components — servos, ESP32, NeoPixel, API calls — come together smoothly was incredibly rewarding.
 
-What could improve:
+#### What could improve:
 
-Exploring different types of threads could make the unspooling mechanism smoother, as it occasionally got stuck.
+- Exploring different types of threads could make the unspooling mechanism smoother, as it occasionally got stuck.
 
-Further form refinement could make the product more cohesive.
+- Further form refinement could make the product more cohesive.
 
-I realized the need to upskill in certain software tools for faster prototyping and iteration.
+- I realized the need to upskill in certain software tools for faster prototyping and iteration.
 
-Clearer communication and schedule alignment in teamwork would help streamline the process even more.
+- Clearer communication and schedule alignment in teamwork would help streamline the process even more.
 
 Overall, this project was a blend of learning, fun, and experimentation, and it beautifully captured the spirit of creating something subtle yet meaningful — an object that reminds us to pause, breathe, and unwind.
 
-Add photos here: [Team photo / behind-the-scenes / final prototype video frame]
+![IMG_7645](https://github.com/user-attachments/assets/8dfa40fe-2e03-4f4c-be5a-7d26319c488c)
 
 
 
