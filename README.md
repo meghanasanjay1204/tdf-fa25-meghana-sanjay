@@ -522,14 +522,14 @@ https://github.com/user-attachments/assets/de685112-5d46-4572-a77b-ce241ee6c8be
 This week, we were introduced to the Ambient Display Project, which focuses on creating subtle, interactive displays that respond to environmental or personal data. In class, we saw several examples of quick 3D printing prototypes and other tangible interfaces that helped us understand the potential for merging physical and digital interactions.
 ![PXL_20251017_005721115 MP](https://github.com/user-attachments/assets/a8525e9d-d433-4f10-b0c6-bc02588585a4)
 
-## Hardware Exercise: ESP32 & Soldering
+### Hardware Exercise: ESP32 & Soldering
 
 For our project, we decided to use the ESP32 microcontroller to connect our display to an API. This required soldering the components, which was a great hands-on exercise in preparing our hardware for real-time data communication. I also made a tiny mistake by cutting off one extra pin from the long row we received hence had to add a last pin manually.
 ![PXL_20251015_213946425 MP](https://github.com/user-attachments/assets/c37274bd-3d23-40c9-a956-9d324b757881)
 ![PXL_20251015_213944195 MP](https://github.com/user-attachments/assets/d80fb408-92e7-4539-a950-bc4f9429c94a)
 ![PXL_20251015_214341434 MP](https://github.com/user-attachments/assets/58979117-5ead-40b3-8595-121d5ce6b4d3)
 
-## Assignment: Getting the Onboard NeoPixel Working
+### Assignment: Getting the Onboard NeoPixel Working
 
 As part of the weekly assignment, we had to get the onboard NeoPixel on the ESP32 working using live weather data from Jacobs. Thanks to Roopa’s awesome tutorial, I was able to:
 
@@ -546,7 +546,7 @@ https://github.com/user-attachments/assets/e19ddcee-45c5-47af-a1fb-5a79871ffefb
 https://github.com/user-attachments/assets/79f17661-65a7-40cd-b0e1-f830626d0ea4
 
 
-## Concept Development
+### Concept Development
 
 I started brainstorming ideas with my teammate Edna, focusing on the theme of overstimulation and calming routines. We explored concepts that could:
 
@@ -643,6 +643,75 @@ https://github.com/user-attachments/assets/2d30b1a6-6a7c-46c6-adea-7a80edf982a1
 # 26.10.2025 - 01.11.2025
 ## Overview 
 
+This week marked the final stretch of our Ambient Display project. We focused on refining all our printed components, integrating electronics neatly, and making sure the final setup worked seamlessly. Many small details that were missing or misfitted in earlier prototypes had to be corrected — including supports, servo fitting dimensions, and wiring routes.
+
+### Refining the 3D Form
+
+In our previous prototype, we realized which parts needed adjustments. We fixed those dimensional errors, added mounting holes, and reprinted the necessary components. The frame was updated to include a pocket for the servo, allowing it to sit securely inside the structure. The disc on top was also modified with holes for screws and wire routing.
+
+Add photos here: [Updated prints / servo pocket / assembly progress]
+
+### Moving to ESP32 Integration
+
+Up until this point, we had been using the Arduino to test and control the servos. This week, we transitioned everything to the ESP32, allowing us to power and control all components from a single board. This made the setup more compact, reliable, and network-ready for API integration.
+
+Add photos here: [ESP32 wiring / servo test / full circuit]
+
+### NeoPixel Setup & Color Logic
+
+We decided to replace the NeoPixel stick with a RGB LED NeoPixel strip, which gave a softer and cleaner lighting effect inside the circular disc. Using this setup, we programmed two color transitions:
+
+Sunrise: light yellow → warm yellow → bright golden orange
+
+Sunset: warm yellow → orange → pink → deep purple
+
+These color transitions represent daily rhythms—helping users wind up and wind down in sync with natural light cycles.
+
+Add photos here: [NeoPixel inside disc / color transitions / code test]
+
+Final Testing at the Bus Stop (Yes, Really!)
+
+For our final prototype test, we decided to have a bit of fun and ran it at the bus stop, tapping into the sunset time of Honolulu via API. The system worked perfectly — both servos triggered in sync, the lights responded to the real-time API call, and the full ambient experience came to life.
+
+Add photos here: [Field test / servo movement / final setup]
+
+Final Product
+
+Our Ambient Display is finally complete — a poetic reminder to unwind at the beginning and end of each day. It can even be synced with multiple time zones, connecting users to places close to their heart or home.
+
+The servo motors rotate clockwise to unwind the thread and anticlockwise to coil it back up.
+
+This motion repeats gently over the course of five minutes, aligning with sunrise and sunset durations.
+
+The light transitions add a calming, atmospheric layer to the interaction.
+
+Add photos here: [Final product shots / thread mechanism / light sequence]
+
+Reflections & Learnings
+
+This project was a huge learning experience — technically, creatively, and collaboratively.
+
+What worked well:
+
+Early testing of individual components made it easier to assemble everything later.
+
+Collaborating with a partner (Edna!) helped in sharing ideas and problem-solving.
+
+Seeing all new components — servos, ESP32, NeoPixel, API calls — come together smoothly was incredibly rewarding.
+
+What could improve:
+
+Exploring different types of threads could make the unspooling mechanism smoother, as it occasionally got stuck.
+
+Further form refinement could make the product more cohesive.
+
+I realized the need to upskill in certain software tools for faster prototyping and iteration.
+
+Clearer communication and schedule alignment in teamwork would help streamline the process even more.
+
+Overall, this project was a blend of learning, fun, and experimentation, and it beautifully captured the spirit of creating something subtle yet meaningful — an object that reminds us to pause, breathe, and unwind.
+
+Add photos here: [Team photo / behind-the-scenes / final prototype video frame]
 
 
 
