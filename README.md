@@ -11,6 +11,8 @@ I’m maintaining this journal to document my process through the Technology Des
 - [Week 6](#week-6)
 - [Week 7](#week-7)
 - [Week 8](#week-8)
+- [Week 9](#week-9)
+- [Week 10](#week-10)
 
 ---
 
@@ -622,14 +624,20 @@ Alongside printing, we also laser cut some gears to quickly test if two interloc
 ![IMG_7443](https://github.com/user-attachments/assets/365865d1-c60f-4010-8d8a-93ae92c86189)
 ![IMG_7444](https://github.com/user-attachments/assets/6157c644-e737-4632-b5a2-791a03214d0d)
 
-
 https://github.com/user-attachments/assets/03ace71e-bcf5-4fe3-a253-17932377d706
 ![IMG_7521](https://github.com/user-attachments/assets/874f625d-6f9a-40e3-959b-dbefd45bf6ce)
 
+https://github.com/user-attachments/assets/6c43b2e3-d96f-4052-852c-f162f474c7c8
 
 This test helped us understand how we could translate the servo’s motion into a stable, synchronized rotation for the unspooling mechanism.
 
+### Soldering the NeoPixel
 
+We also spent some time soldering the NeoPixel, using the helping hands tool to keep everything steady while making clean connections. After soldering, we tested the circuit, and it worked perfectly.
+To create the right mood for our ambient display, we used ChatGPT to generate code that would produce a soft sunrise glow a light yellow-to-bright orange gradient that subtly shifts in intensity, reflecting the calm and warmth of morning light.
+![PXL_20251025_184918742 MP](https://github.com/user-attachments/assets/024ba36c-f61b-4404-a5b5-c275f78bd802)
+
+https://github.com/user-attachments/assets/2d30b1a6-6a7c-46c6-adea-7a80edf982a1
 
 # Week 10
 # 26.10.2025 - 01.11.2025
