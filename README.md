@@ -13,6 +13,7 @@ I’m maintaining this journal to document my process through the Technology Des
 - [Week 8](#week-8)
 - [Week 9](#week-9)
 - [Week 10](#week-10)
+- [Week 11](#week-11)
 
 ---
 
@@ -733,14 +734,51 @@ Overall, this project was a blend of learning, fun, and experimentation, and it 
 
 ![IMG_7645](https://github.com/user-attachments/assets/8dfa40fe-2e03-4f4c-be5a-7d26319c488c)
 
+# Week 11
+# 02.11.2025 - 09.11.2025
+## Overview 
 
+This week we teamed up and started working towards our final project. A tangible, poetic system for emotional connection across space.
 
+ELO explores how touch, movement, and subtle haptic cues can connect people across long distances—without screens, digital messaging, or spoken communication. Instead of notifications or sound, ELO creates a soft, embodied language of emotion through gentle vibration patterns and expressive motion.
 
+The system consists of paired objects.
+When one person interacts with their device—through a touch, press, hold, or approach—the paired object elsewhere responds with slow kinetic movement or haptic feedback, offering a wordless reminder of presence.
 
+## Goals
+- Build an emotionally expressive system using haptic feedback and gentle motion
+- Translate human gestures into poetic, sensory responses
+- Create a non-screen-based method of long-distance connection
+- Develop a shared tactile “language” that conveys comfort, calm, or presence
 
+## Core Components
 
+- Tactile Inputs: touch, press, squeeze
+- Presence Inputs: short-range proximity detection
+- Feedback: vibration patterns, kinetic movement
+- Internal Mechanisms: custom gears, soft actuators
+- Paired Devices: exchanging physical gestures through simple wireless communication
+- Interaction Language: mapping gestures → emotional responses
 
+## System Architecture Diagram
+![el1](https://github.com/user-attachments/assets/3a176529-1910-4220-bf76-e66fa0230f0b)
 
+## Sequence Diagram
+![el2](https://github.com/user-attachments/assets/d0abada0-2169-472a-a01f-2228d5dde14a)
+
+## Form Exploration & Gamification
+We explored organic, hand-held forms that feel soft, approachable, and naturally invite touch. Early sketches played with pebble-like and pod-shaped silhouettes that users could cradle, press, or rest their hands on. We also experimented with gamifying the interaction—imagining a small token or pawn that the user moves or places to initiate an emotional action. This allowed the object to feel playful yet intimate, turning gesture into a quiet ritual rather than a button press.
+
+![el3](https://github.com/user-attachments/assets/8b200f40-c2b2-4ab0-a45d-cb91d70284e9)
+
+## Electronics & Communication
+We decided to use MQTT as our primary communication protocol. MQTT is a lightweight publish–subscribe messaging system designed for IoT devices, making it perfect for low-power, low-bandwidth interactions. Each device acts as a client that either publishes signals or subscribes to specific topics. A central broker manages this exchange, ensuring that only the intended paired device receives the interaction. This allows our emotional cues to feel instant, synchronized, and reliable across distance.
+
+Underneath this, MQTT relies on TCP (Transmission Control Protocol)—a foundational internet protocol that ensures data arrives in the correct order and without errors. TCP establishes a stable connection, numbers and tracks packets, and retransmits any lost ones, giving us a dependable channel for subtle tactile interactions.
+
+Together, MQTT + TCP provide a stable, low-overhead system that enables two objects to quietly communicate emotional gestures in real time.
+https://photos.google.com/share/AF1QipNzi_Ohrr0OyCFQ2dvHLpmZx3K1hmgx-rUzoM65AvZk-zPZyF6TDQ_XYiIsPj6_Cw/photo/AF1QipPA14npHySwn0759qO1Fnw_EA9-Hwqy56HSlp4U?key=dUlCeFNBaUtRV0hnT3RWZDUwTlQ2WVZvWG1nR2Fn
+https://photos.google.com/share/AF1QipNzi_Ohrr0OyCFQ2dvHLpmZx3K1hmgx-rUzoM65AvZk-zPZyF6TDQ_XYiIsPj6_Cw/photo/AF1QipPPO-nFsyVMwJHYMB6GH_QjuusCj2gV__iAI5H0?key=dUlCeFNBaUtRV0hnT3RWZDUwTlQ2WVZvWG1nR2Fn
 
 
 
