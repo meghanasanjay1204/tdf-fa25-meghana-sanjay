@@ -777,9 +777,13 @@ We decided to use MQTT as our primary communication protocol. MQTT is a lightwei
 Underneath this, MQTT relies on TCP (Transmission Control Protocol)—a foundational internet protocol that ensures data arrives in the correct order and without errors. TCP establishes a stable connection, numbers and tracks packets, and retransmits any lost ones, giving us a dependable channel for subtle tactile interactions.
 
 Together, MQTT + TCP provide a stable, low-overhead system that enables two objects to quietly communicate emotional gestures in real time.
-https://photos.google.com/share/AF1QipNzi_Ohrr0OyCFQ2dvHLpmZx3K1hmgx-rUzoM65AvZk-zPZyF6TDQ_XYiIsPj6_Cw/photo/AF1QipPA14npHySwn0759qO1Fnw_EA9-Hwqy56HSlp4U?key=dUlCeFNBaUtRV0hnT3RWZDUwTlQ2WVZvWG1nR2Fn
-https://photos.google.com/share/AF1QipNzi_Ohrr0OyCFQ2dvHLpmZx3K1hmgx-rUzoM65AvZk-zPZyF6TDQ_XYiIsPj6_Cw/photo/AF1QipPPO-nFsyVMwJHYMB6GH_QjuusCj2gV__iAI5H0?key=dUlCeFNBaUtRV0hnT3RWZDUwTlQ2WVZvWG1nR2Fn
 
+
+https://github.com/user-attachments/assets/3cdc2ed6-f8d2-4aba-8852-62ce00fe7340
+
+https://github.com/user-attachments/assets/677b2346-009a-44e8-8169-043cb746c0b2
+
+https://github.com/user-attachments/assets/c077b1f6-88aa-4e04-b2e8-b3a13a42cb65
 
 
 
