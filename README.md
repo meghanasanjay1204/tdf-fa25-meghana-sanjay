@@ -14,6 +14,10 @@ I’m maintaining this journal to document my process through the Technology Des
 - [Week 9](#week-9)
 - [Week 10](#week-10)
 - [Week 11](#week-11)
+- [Week 12](#week-12)
+- [Week 13](#week-13)
+- [Week 14](#week-14)
+- [Week 15](#week-15)
 
 ---
 
@@ -745,13 +749,13 @@ ELO explores how touch, movement, and subtle haptic cues can connect people acro
 The system consists of paired objects.
 When one person interacts with their device—through a touch, press, hold, or approach—the paired object elsewhere responds with slow kinetic movement or haptic feedback, offering a wordless reminder of presence.
 
-## Goals
+### Goals
 - Build an emotionally expressive system using haptic feedback and gentle motion
 - Translate human gestures into poetic, sensory responses
 - Create a non-screen-based method of long-distance connection
 - Develop a shared tactile “language” that conveys comfort, calm, or presence
 
-## Core Components
+### Core Components
 
 - Tactile Inputs: touch, press, squeeze
 - Presence Inputs: short-range proximity detection
@@ -760,18 +764,18 @@ When one person interacts with their device—through a touch, press, hold, or a
 - Paired Devices: exchanging physical gestures through simple wireless communication
 - Interaction Language: mapping gestures → emotional responses
 
-## System Architecture Diagram
+### System Architecture Diagram
 ![el1](https://github.com/user-attachments/assets/3a176529-1910-4220-bf76-e66fa0230f0b)
 
-## Sequence Diagram
+### Sequence Diagram
 ![el2](https://github.com/user-attachments/assets/d0abada0-2169-472a-a01f-2228d5dde14a)
 
-## Form Exploration & Gamification
+### Form Exploration & Gamification
 We explored organic, hand-held forms that feel soft, approachable, and naturally invite touch. Early sketches played with pebble-like and pod-shaped silhouettes that users could cradle, press, or rest their hands on. We also experimented with gamifying the interaction—imagining a small token or pawn that the user moves or places to initiate an emotional action. This allowed the object to feel playful yet intimate, turning gesture into a quiet ritual rather than a button press.
 
 ![el3](https://github.com/user-attachments/assets/8b200f40-c2b2-4ab0-a45d-cb91d70284e9)
 
-## Electronics & Communication
+### Electronics & Communication
 We decided to use MQTT as our primary communication protocol. MQTT is a lightweight publish–subscribe messaging system designed for IoT devices, making it perfect for low-power, low-bandwidth interactions. Each device acts as a client that either publishes signals or subscribes to specific topics. A central broker manages this exchange, ensuring that only the intended paired device receives the interaction. This allows our emotional cues to feel instant, synchronized, and reliable across distance.
 
 Underneath this, MQTT relies on TCP (Transmission Control Protocol)—a foundational internet protocol that ensures data arrives in the correct order and without errors. TCP establishes a stable connection, numbers and tracks packets, and retransmits any lost ones, giving us a dependable channel for subtle tactile interactions.
@@ -785,12 +789,24 @@ https://github.com/user-attachments/assets/677b2346-009a-44e8-8169-043cb746c0b2
 
 https://github.com/user-attachments/assets/c077b1f6-88aa-4e04-b2e8-b3a13a42cb65
 
+# Week 12
+# 10.11.2025 - 17.11.2025
+## Overview
 
 
+# Week 13
+# 18.11.2025 - 25.11.2025
+## Overview
 
 
+# Week 14
+# 26.11.2025 - 03.12.2025
+## Overview
 
 
+# Week 15
+# 04.12.2025 - 09.12.2025
+## Overview
 
 
 
