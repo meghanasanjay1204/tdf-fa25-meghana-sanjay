@@ -804,15 +804,23 @@ This week focused on building the full physical–digital foundation of the proj
 * Added magnets into the gears to achieve the desired effect.
 <img width="864" height="721" alt="image" src="https://github.com/user-attachments/assets/f63bb584-1c61-411e-a7a2-62be34bb649c" />
 <img width="960" height="720" alt="image" src="https://github.com/user-attachments/assets/cad41e6e-14b5-47c7-8ce4-5e7d7fbbba0d" />
+https://github.com/user-attachments/assets/9139b743-1ce0-4123-88f5-bae4128555a1
+https://github.com/user-attachments/assets/0bdcedea-f803-4148-be10-1a119c6ed12b
 
 #### Organic Form Development
 * 3D-printed shell prototypes to test material flexibility + comfort in hand.
 * Ensured the form could house: entire gear mechanism, servo + mount, wiring + sensors, ESP32
 * Adjusted wall thickness and interior supports based on test prints.
 
+![PXL_20251117_185314153 MP](https://github.com/user-attachments/assets/926d1e62-1a3e-4e0f-b89b-5fb5ae1b0d56)
+https://github.com/user-attachments/assets/ae317753-083a-413f-94a3-e7889dd6d132
+https://github.com/user-attachments/assets/3c7886db-9307-4e50-ab23-f3b14ebc4d39
+
 #### Structural Integration
 * Printed early “test shells” to ensure internal components fit cleanly.
 * Checked alignment between form, gears, and sensor locations.
+
+https://github.com/user-attachments/assets/f0a338ef-b5bd-4c89-8132-5afa0f09aa24
 
 ### Electronics & Communication 
 
