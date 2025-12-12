@@ -792,7 +792,46 @@ https://github.com/user-attachments/assets/c077b1f6-88aa-4e04-b2e8-b3a13a42cb65
 # Week 12
 # 10.11.2025 - 17.11.2025
 ## Overview
+This week focused on building the full physical–digital foundation of the project. Mechanically, we explored gear-driven movement with magnets, tested organic form prototypes, and refined tolerances through multiple 3D prints. Electronically, we integrated sensor-based interaction, established device-to-device communication through Berkeley IoT, and tuned the responsiveness of the LDR to create an intentional touch interaction. By the end of the week, both the physical mechanism and the communication pipeline were functioning together in early prototypes.
 
+### Digital Fabrication 
+#### Gear Mechanism Prototyping
+
+* Designed and 3D-printed a conical gear pair to allow smooth perpendicular rotation.
+* The small conical gear attaches to the servo; the larger gear receives the motion.
+* Printed multiple iterations to test mesh alignment, flexibility, and friction.
+* Established a stable rotation system that will translate sensor input into gentle movement.
+* Added magnets into the gears to achieve the desired effect.
+
+#### Organic Form Development
+* 3D-printed shell prototypes to test material flexibility + comfort in hand.
+* Ensured the form could house: entire gear mechanism, servo + mount, wiring + sensors, ESP32
+* Adjusted wall thickness and interior supports based on test prints.
+
+#### Structural Integration
+* Printed early “test shells” to ensure internal components fit cleanly.
+* Checked alignment between form, gears, and sensor locations.
+
+### Electronics & Communication 
+
+#### Sensor Interaction (LDR Touch Input)
+* Integrated an LDR sensor as the main input for intimate, intentional interaction.
+* Original threshold (2500) caused false triggers.
+* Tuned input threshold down to 1000, activating only when a finger touches the LDR.
+* Enabled soft “touch → movement” behavior.
+
+#### ESP32 Device-to-Device Communication
+* Each ESP32 has a unique MAC address, requiring separate login credentials.
+* Registered both devices individually on Berkeley IoT, using two different passwords.
+* Established reliable communication between paired devices.
+* Enabled “emotion trigger → remote kinetic response” behavior.
+
+#### System Integration
+
+Tested real-time communication between:
+* LDR sensor → ESP32 sender
+* ESP32 receiver → servo + gear motion
+Verified that the physical motion activates only on intentional touch events.
 
 # Week 13
 # 18.11.2025 - 25.11.2025
