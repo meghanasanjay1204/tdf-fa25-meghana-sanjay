@@ -802,6 +802,8 @@ This week focused on building the full physical–digital foundation of the proj
 * Printed multiple iterations to test mesh alignment, flexibility, and friction.
 * Established a stable rotation system that will translate sensor input into gentle movement.
 * Added magnets into the gears to achieve the desired effect.
+<img width="864" height="721" alt="image" src="https://github.com/user-attachments/assets/f63bb584-1c61-411e-a7a2-62be34bb649c" />
+<img width="960" height="720" alt="image" src="https://github.com/user-attachments/assets/cad41e6e-14b5-47c7-8ce4-5e7d7fbbba0d" />
 
 #### Organic Form Development
 * 3D-printed shell prototypes to test material flexibility + comfort in hand.
