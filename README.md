@@ -818,6 +818,8 @@ https://github.com/user-attachments/assets/0bdcedea-f803-4148-be10-1a119c6ed12b
 
 https://github.com/user-attachments/assets/ae317753-083a-413f-94a3-e7889dd6d132
 
+![IMG_1527](https://github.com/user-attachments/assets/fa63dce3-529e-4417-9ee8-a889a2d1ef6e)
+
 https://github.com/user-attachments/assets/3c7886db-9307-4e50-ab23-f3b14ebc4d39
 
 #### Structural Integration
@@ -826,6 +828,8 @@ https://github.com/user-attachments/assets/3c7886db-9307-4e50-ab23-f3b14ebc4d39
 
 https://github.com/user-attachments/assets/f0a338ef-b5bd-4c89-8132-5afa0f09aa24
 
+![08751C79-FA6E-4494-B36C-BFEF476400D0](https://github.com/user-attachments/assets/4d16328e-30b3-4100-9d10-310c3aa9e116)
+
 ### Electronics & Communication 
 
 #### Sensor Interaction (LDR Touch Input)
@@ -833,6 +837,11 @@ https://github.com/user-attachments/assets/f0a338ef-b5bd-4c89-8132-5afa0f09aa24
 * Original threshold (2500) caused false triggers.
 * Tuned input threshold down to 1000, activating only when a finger touches the LDR.
 * Enabled soft “touch → movement” behavior.
+<img width="652" height="314" alt="image" src="https://github.com/user-attachments/assets/bf295237-060b-480b-8419-e67d9b5b7276" />
+
+<img width="522" height="314" alt="image" src="https://github.com/user-attachments/assets/bcda2366-6f36-425c-8e43-d9ad45b95a6c" />
+
+https://github.com/user-attachments/assets/a1ecd1fb-5ddb-4b34-9674-1fc7a50da312
 
 #### ESP32 Device-to-Device Communication
 * Each ESP32 has a unique MAC address, requiring separate login credentials.
@@ -840,12 +849,16 @@ https://github.com/user-attachments/assets/f0a338ef-b5bd-4c89-8132-5afa0f09aa24
 * Established reliable communication between paired devices.
 * Enabled “emotion trigger → remote kinetic response” behavior.
 
+https://github.com/user-attachments/assets/4dc60573-285f-4753-9400-528be424a3fa
+
 #### System Integration
 
 Tested real-time communication between:
 * LDR sensor → ESP32 sender
 * ESP32 receiver → servo + gear motion
 Verified that the physical motion activates only on intentional touch events.
+
+https://github.com/user-attachments/assets/4933d811-0205-4aa7-8829-9307c3827e34
 
 # Week 13
 # 18.11.2025 - 25.11.2025
