@@ -940,7 +940,6 @@ Multiple laser-cut iterations were made to create a structure that could hold th
 
 <img width="540" height="960" alt="image" src="https://github.com/user-attachments/assets/38758b0b-03d2-43da-acd5-6c6c310c189a" />
 
-<img width="540" height="960" alt="image" src="https://github.com/user-attachments/assets/0bcd1ad1-1147-4b0b-b9c9-bd2baa926625" />
 
 ### Interaction Design with Sensors
 
