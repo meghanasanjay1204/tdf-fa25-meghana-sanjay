@@ -995,8 +995,9 @@ https://github.com/user-attachments/assets/b2969fad-73e5-4774-aee8-3c7709232c3c
 * Overall, the project helped all of us learn something new from IoT communication and electronics to 3D modeling, soldering, and mechanical systems. More importantly, it reinforced how collaborative, hands-on making can transform abstract ideas about emotion and connection into tangible experiences.
 
 
+### Sequence Diagram
 
-
+![System architecture diagram](https://github.com/user-attachments/assets/93747a9c-08b8-41f3-889c-7f051a0adc7b)
 
 
 
