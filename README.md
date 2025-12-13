@@ -863,16 +863,109 @@ https://github.com/user-attachments/assets/4933d811-0205-4aa7-8829-9307c3827e34
 # Week 13
 # 18.11.2025 - 25.11.2025
 ## Overview
+This week we focused on consolidating the mechanical and electronic systems into a single, functional device while stress-testing long-distance communication. We refined the internal housing to securely contain the servo, gears, and wiring, tested interaction affordances on the top surface, and expanded sensor logic to enable multiple movement behaviors. This week marked a transition from single-response interaction to more expressive, state-based motion.
+
+### Digital Fabrication 
+
+#### Gear & Electronics Housing
+* 3D-printed a dedicated internal housing to contain: servo motor, conical gears, wiring pathways
+* Refined tolerances to reduce vibration and misalignment during movement.
+* Iterated prints to improve structural stability and ease of assembly.
+  
+<img width="540" height="732" alt="image" src="https://github.com/user-attachments/assets/37e93b97-6d5b-421a-9af3-ea7548aaddde" />
+
+
+#### Top Surface & Interaction Testing
+* 3D-printed the top component of the device.
+* Tested interaction using wooden peg dolls and embedded magnets to evaluate:
+  * whether the internal gear mechanism could be triggered smoothly
+  * how external movement translates into internal motion
+These tests helped validate the feasibility of indirect, object-based interaction.
+
+### Electronics & Communication
+#### Long-Distance Communication Testing
+* Tested device-to-device communication across different WiFi networks.
+* Connected each device from separate locations during a Zoom call to simulate real-world distance.
+* Verified that sensor-triggered motion still synchronized remotely, confirming long-distance feasibility.
+
+
+https://github.com/user-attachments/assets/1129ed72-3724-4dc5-ae19-6f21482e0347
+
+
+#### Multi-Sensor Interaction Logic (LDR Expansion)
+
+* Expanded from 2 LDR sensors to 4 LDR sensors to enable richer movement behaviors.
+* Each LDR controlled a distinct motion state.
+ * Movement Cases Implemented
+   * Case 0: Stop
+   * Case 1: Slow movement
+   * Case 2: Fast movement
+   * Case 3: Direction changes once every 1 second
+   * Case 4: Direction changes once every 0.25 seconds
+<img width="743" height="895" alt="image" src="https://github.com/user-attachments/assets/6bde5058-508e-4315-a92d-7a4e05b854d9" />
+
+<img width="516" height="320" alt="image" src="https://github.com/user-attachments/assets/88529b9f-f4c6-43e6-9d05-ef6e08f47c93" />
+
+<img width="350" height="800" alt="image" src="https://github.com/user-attachments/assets/9221967b-cb32-4d63-a864-20004b535c83" />
+
+
+https://github.com/user-attachments/assets/5701e104-0d08-48e7-955c-ac3375404d7e
+
+
+#### Sensor Calibration Challenges
+
+* Multi-sensor logic proved significantly more complex than using two LDRs.
+* Distinct movements required careful threshold separation and testing.
+* Sensors only worked reliably when paired with different 10kΩ resistors.
+* 
+<img width="621" height="960" alt="image" src="https://github.com/user-attachments/assets/e0109668-1301-4a89-ab36-75c4b53282ac" />
+
+<img width="720" height="960" alt="image" src="https://github.com/user-attachments/assets/73cbaa6c-f94c-4b79-9890-fdf5178f939e" />
 
 
 # Week 14
 # 26.11.2025 - 03.12.2025
 ## Overview
+This week focused on spatial integration and interaction refinement. As the mechanical and electronic systems became more complex, the device body needed to evolve to accommodate internal components while preserving a clean, intuitive interaction on the surface. This week was about aligning internal constraints with external experience.
 
+### Form & Structural Refinement
+
+We increased the height of the 3D-printed body to accommodate the internal gear mechanism, electronic housing, servo motor, and power bank. This change helped reduce internal congestion and allowed for cleaner wiring and more reliable movement.
+
+Multiple laser-cut iterations were made to create a structure that could hold the LDR sensors beneath the top surface. The aim was to keep the electronics hidden while still allowing the sensors to respond accurately to interaction.
+
+### Interaction Design with Sensors
+
+To enable controlled triggering of the LDR sensors, we designed U-shaped openings in the top surface. These openings allow a wooden marbles to move across the surface and selectively block light reaching the sensors below. This interaction causes the internal mechanism to activate and move the wooden elements on top, creating a subtle and engaging cause-and-effect relationship between user action and system response.
+
+### Reflection
+
+This week reinforced the importance of designing the body and interaction together rather than treating structure and electronics as separate layers. Small changes in height, spacing, and sensor placement had a significant impact on usability and reliability. Designing for indirect interaction also made the experience feel more intentional and less technical, aligning better with the emotional goals of the project.
 
 # Week 15
 # 04.12.2025 - 09.12.2025
 ## Overview
+The final week was focused on full assembly, integration, and documentation. All individual components — mechanical, electronic, and structural were brought together into a single working system. Once assembled, we finalized interactions, secured all parts, and documented the project through photos and a final video.
+
+### Final Assembly & Integration
+
+This week, we assembled the complete device and fixed all components in place. The internal mechanisms, sensors, wiring, and housing were secured to ensure stability during operation. After several small adjustments and reinforcements, the system functioned reliably as a cohesive whole.
+
+We then filmed the final project video, capturing both the ambient behavior of the object and the interaction between the paired devices.
+
+### Final Outcome
+
+The final outcome is an ambient display designed to be owned by two people and customized to their emotional expressions. Each action performed on one device triggers a corresponding motion on the paired device, allowing the second person to respond with a complementary, abstract emotional gesture.
+
+Rather than relying on screens or explicit messages, the project explores how communication can shift toward a tactile, physical experience — using motion, presence, and material interaction to convey emotion in a subtle and poetic way.
+
+### Reflections & Learnings
+
+* One of the biggest learnings from this project was the importance of fixing a clear direction early on. Establishing a strong concept upfront allowed us to move faster and more smoothly through later stages of development.
+* Teamwork played a crucial role throughout the process. Responsibilities were shared rather than isolated, which helped us stay flexible and support each other across electronics, fabrication, and design tasks.
+* We also faced logistical challenges, especially with 3D printing during and after Thanksgiving, when printers were often occupied. Despite this, the constraints pushed us to plan better, iterate efficiently, and adapt quickly.
+* Overall, the project helped all of us learn something new from IoT communication and electronics to 3D modeling, soldering, and mechanical systems. More importantly, it reinforced how collaborative, hands-on making can transform abstract ideas about emotion and connection into tangible experiences.
+
 
 
 
