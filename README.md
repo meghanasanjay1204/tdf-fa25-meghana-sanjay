@@ -1,4 +1,4 @@
-# TDF Weekly Progress Reports
+<img width="540" height="960" alt="image" src="https://github.com/user-attachments/assets/0bcd1ad1-1147-4b0b-b9c9-bd2baa926625" /># TDF Weekly Progress Reports
 Hey, I'm Meghana (Megzu) 🌻
 I’m maintaining this journal to document my process through the Technology Design Foundation class, which is a mix of electronics and digital fabrication. Very excited to learn, experiment, and do fun stuff along the way!
 
@@ -932,15 +932,31 @@ This week focused on spatial integration and interaction refinement. As the mech
 
 We increased the height of the 3D-printed body to accommodate the internal gear mechanism, electronic housing, servo motor, and power bank. This change helped reduce internal congestion and allowed for cleaner wiring and more reliable movement.
 
+<img width="540" height="960" alt="image" src="https://github.com/user-attachments/assets/934b530f-906a-4937-b281-e43aed9540d8" />
+
 Multiple laser-cut iterations were made to create a structure that could hold the LDR sensors beneath the top surface. The aim was to keep the electronics hidden while still allowing the sensors to respond accurately to interaction.
+
+<img width="540" height="960" alt="image" src="https://github.com/user-attachments/assets/8d8dcb48-fec1-44a6-967b-6ef6c66251d5" />
+
+<img width="540" height="960" alt="image" src="https://github.com/user-attachments/assets/38758b0b-03d2-43da-acd5-6c6c310c189a" />
+
 
 ### Interaction Design with Sensors
 
 To enable controlled triggering of the LDR sensors, we designed U-shaped openings in the top surface. These openings allow a wooden marbles to move across the surface and selectively block light reaching the sensors below. This interaction causes the internal mechanism to activate and move the wooden elements on top, creating a subtle and engaging cause-and-effect relationship between user action and system response.
 
+<img width="713" height="608" alt="image" src="https://github.com/user-attachments/assets/01964c31-f56b-40c7-b439-8c920a3be050" />
+
+<img width="797" height="448" alt="image" src="https://github.com/user-attachments/assets/ab2c5bb0-8561-4780-9552-d70885fecd5a" />
+
+<img width="720" height="960" alt="image" src="https://github.com/user-attachments/assets/404f71c8-d376-4ebe-bb6a-ecb9e508c610" />
+
 ### Reflection
 
 This week reinforced the importance of designing the body and interaction together rather than treating structure and electronics as separate layers. Small changes in height, spacing, and sensor placement had a significant impact on usability and reliability. Designing for indirect interaction also made the experience feel more intentional and less technical, aligning better with the emotional goals of the project.
+
+<img width="1382" height="212" alt="image" src="https://github.com/user-attachments/assets/c8175591-1eeb-4757-a64e-31c4cd572c1a" />
+<img width="1064" height="230" alt="image" src="https://github.com/user-attachments/assets/300a1486-1c12-479e-bb10-b4cf32961322" />
 
 # Week 15
 # 04.12.2025 - 09.12.2025
@@ -953,11 +969,22 @@ This week, we assembled the complete device and fixed all components in place. T
 
 We then filmed the final project video, capturing both the ambient behavior of the object and the interaction between the paired devices.
 
+<img width="1376" height="1033" alt="image" src="https://github.com/user-attachments/assets/31eb0c54-8823-44a2-af76-dbce36ef5e68" />
+
+<img width="775" height="1033" alt="image" src="https://github.com/user-attachments/assets/cee246e5-29a6-48ca-a91a-c664bb4e9e70" />
+
+https://github.com/user-attachments/assets/3335dee6-f50c-44a4-90c8-de4407ff989a
+
+
 ### Final Outcome
 
 The final outcome is an ambient display designed to be owned by two people and customized to their emotional expressions. Each action performed on one device triggers a corresponding motion on the paired device, allowing the second person to respond with a complementary, abstract emotional gesture.
 
 Rather than relying on screens or explicit messages, the project explores how communication can shift toward a tactile, physical experience — using motion, presence, and material interaction to convey emotion in a subtle and poetic way.
+
+<img width="775" height="1033" alt="image" src="https://github.com/user-attachments/assets/69f040db-266b-4cd7-be64-df9c56a85a46" />
+
+https://github.com/user-attachments/assets/b2969fad-73e5-4774-aee8-3c7709232c3c
 
 ### Reflections & Learnings
 
